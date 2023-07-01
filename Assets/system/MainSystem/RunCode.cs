@@ -6,6 +6,6 @@ public class RunCode : MainSystem
 {
     private void FixedUpdate()
     {
-        Wincheck();
+        
     }
 }
