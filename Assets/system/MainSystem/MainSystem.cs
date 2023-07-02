@@ -13,6 +13,15 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public static int o_Point;
     [SerializeField] public static int t_Point;
 
+    [Header("variable for Skill System")]
+    [SerializeField] public GameObject[] X_skill;
+    [SerializeField] public GameObject[] O_skill;
+    [SerializeField] public int skill_Turn;
+    [SerializeField] public int X_skillPoint;
+    [SerializeField] public int O_skillPoint;
+    
+
+
 
 
     [Header("variable for obj")]
@@ -44,9 +53,30 @@ public class MainSystem : MonoBehaviour
 
     }
 
+    public void Skill_count()
+    {
+        skill_Turn = turn_Check;
+        if (skill_Turn % 3 == 0)
+        {
+            X_skillPoint++;
+            skill_Turn = 0;
+        }
+        if (skill_Turn % 3 == 0)
+        {
+            O_skillPoint++;
+            skill_Turn = 0;
+        }
+
+        Debug.Log(X_skillPoint);
+        Debug.Log(O_skillPoint);
+        Debug.Log(skill_Turn);
+
+
+    } 
+
     public void Wincheck()
     {
        //updating for 5*5 soon
-       
+
     }
 }
