@@ -16,9 +16,11 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Skill System")]
     [SerializeField] public GameObject[] X_skill;
     [SerializeField] public GameObject[] O_skill;
-    [SerializeField] public int skill_Turn;
-    [SerializeField] public int X_skillPoint;
-    [SerializeField] public int O_skillPoint;
+    
+    [SerializeField] public static int X_Turn;
+    [SerializeField] public static int O_Turn;
+    [SerializeField] public static int X_skillPoint;
+    [SerializeField] public static int O_skillPoint;
     
 
 
@@ -42,37 +44,52 @@ public class MainSystem : MonoBehaviour
     public void XO_Count()
     {
         count_Number++;
-        if (count_Number % 2 != 0) X.SetActive(true);
-        if (count_Number % 2 == 0) O.SetActive(true);
+        if (count_Number % 2 != 0)
+        {
+            
+            X.SetActive(true);
+            X_Turn++;
+        }
+        if (count_Number % 2 == 0)
+        {
+            O.SetActive(true);
+            O_Turn++;
+        }
         Box.SetActive(false);
         
     }
     public void Turn_Count()
     {
         if (count_Number % 2 == 0) turn_Check++;
-
     }
 
     public void Skill_count()
     {
-        skill_Turn = turn_Check;
-        if (skill_Turn % 3 == 0)
+        if (X_Turn >= 3 )
         {
             X_skillPoint++;
-            skill_Turn = 0;
+            X_Turn = 0;
         }
-        if (skill_Turn % 3 == 0)
+        if (O_Turn >= 3)
         {
             O_skillPoint++;
-            skill_Turn = 0;
+            O_Turn = 0;
         }
-
-        Debug.Log(X_skillPoint);
-        Debug.Log(O_skillPoint);
-        Debug.Log(skill_Turn);
-
+       
 
     } 
+
+    public void Skill_Active()
+    {
+        if (X_skillPoint == 1) X_skill[0].SetActive(true);
+        if (X_skillPoint == 2) X_skill[1].SetActive(true);
+        if (X_skillPoint == 3) X_skill[2].SetActive(true);
+
+        if (O_skillPoint == 1) O_skill[0].SetActive(true);
+        if (O_skillPoint == 2) O_skill[1].SetActive(true);
+        if (O_skillPoint == 3) O_skill[2].SetActive(true);
+
+    }
 
     public void Wincheck()
     {

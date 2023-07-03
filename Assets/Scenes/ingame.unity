@@ -295,8 +295,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
@@ -1030,8 +1028,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
@@ -1286,8 +1282,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
@@ -1466,8 +1460,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
@@ -1646,8 +1638,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
@@ -1811,8 +1801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -1991,8 +1979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
@@ -2247,8 +2233,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
@@ -4119,8 +4103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
@@ -4299,8 +4281,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
@@ -4545,7 +4525,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 734126957}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: XO_Count
+        m_MethodName: Turn_Count
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4556,8 +4536,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 734126957}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: Turn_Count
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XO_Count
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4574,18 +4554,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4643,8 +4611,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 734126952}
@@ -4900,8 +4866,6 @@ MonoBehaviour:
   - {fileID: 769875632}
   - {fileID: 1564843681}
   - {fileID: 1869837673}
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -5674,8 +5638,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
@@ -6007,8 +5969,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
@@ -6187,8 +6147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
@@ -6443,8 +6401,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
@@ -7349,8 +7305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
@@ -7529,8 +7483,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
@@ -7709,8 +7661,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
@@ -7765,8 +7715,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -7814,8 +7762,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -8495,8 +8441,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
@@ -8981,8 +8925,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
@@ -9313,8 +9255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
@@ -9493,8 +9433,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
@@ -10095,8 +10033,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
@@ -10799,8 +10735,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
@@ -11207,8 +11141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
@@ -11387,8 +11319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   X_skill: []
   O_skill: []
-  X_skillPoint: 0
-  O_skillPoint: 0
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
