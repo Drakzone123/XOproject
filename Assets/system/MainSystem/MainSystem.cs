@@ -75,7 +75,10 @@ public class MainSystem : MonoBehaviour
             O_skillPoint++;
             O_Turn = 0;
         }
-       
+        if (X_Turn >= 3) X_Turn = 3;
+        if (O_Turn >= 3) O_Turn = 3;
+
+
 
     } 
 
