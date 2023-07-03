@@ -1799,8 +1799,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  X_skill: []
-  O_skill: []
+  X_skill:
+  - {fileID: 2094312031}
+  - {fileID: 79300019}
+  - {fileID: 402020549}
+  O_skill:
+  - {fileID: 769875632}
+  - {fileID: 1564843681}
+  - {fileID: 1869837673}
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -4868,7 +4874,7 @@ MonoBehaviour:
   - {fileID: 1869837673}
   X: {fileID: 0}
   O: {fileID: 0}
-  Box: {fileID: 0}
+  Box: {fileID: 1083616836}
   WX: []
   WO: []
   Tie: []
@@ -7713,8 +7719,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3daad19246dd7b9428ba90ee25174cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  X_skill: []
-  O_skill: []
+  X_skill:
+  - {fileID: 2094312031}
+  - {fileID: 79300019}
+  - {fileID: 402020549}
+  O_skill:
+  - {fileID: 769875632}
+  - {fileID: 1564843681}
+  - {fileID: 1869837673}
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
