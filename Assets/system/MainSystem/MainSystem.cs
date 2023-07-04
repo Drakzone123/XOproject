@@ -247,6 +247,32 @@ public class MainSystem : MonoBehaviour
         
 
     }
+    public void Skill_Destroy()
+    {
+        count_Number++;
+        if (X.activeSelf == true)
+        {
+            X.SetActive(false);
+        }
+        if (O.activeSelf == true)
+        {
+            O.SetActive(false);
+        }
+        
+        if (count_Number % 2 != 0)
+        {
+
+            X_Turn++;
+        }
+        if (count_Number % 2 == 0)
+        { 
+            O_Turn++;
+        }
+        Box.SetActive(true);
+
+        
+
+    }
     public void X_Affectskillspace()
     {
         if (O_Skillcontrol[0].activeSelf == true)
@@ -453,7 +479,61 @@ public class MainSystem : MonoBehaviour
             O_Space[24].SetActive(true);
         }
     }
-
+    public void Skill_regrid()
+    {
+        //----X_Regrid-----//
+        X_Space[0].SetActive(false);
+        X_Space[1].SetActive(false);
+        X_Space[2].SetActive(false);
+        X_Space[3].SetActive(false);
+        X_Space[4].SetActive(false);
+        X_Space[5].SetActive(false);
+        X_Space[6].SetActive(false);
+        X_Space[7].SetActive(false);
+        X_Space[8].SetActive(false);
+        X_Space[9].SetActive(false);
+        X_Space[10].SetActive(false);
+        X_Space[11].SetActive(false);
+        X_Space[12].SetActive(false);
+        X_Space[13].SetActive(false);
+        X_Space[14].SetActive(false);
+        X_Space[15].SetActive(false);
+        X_Space[16].SetActive(false);
+        X_Space[17].SetActive(false);
+        X_Space[18].SetActive(false);
+        X_Space[19].SetActive(false);
+        X_Space[20].SetActive(false);
+        X_Space[21].SetActive(false);
+        X_Space[22].SetActive(false);
+        X_Space[23].SetActive(false);
+        X_Space[24].SetActive(false);
+        //----O_Regrid-----//
+        O_Space[0].SetActive(false);
+        O_Space[1].SetActive(false);
+        O_Space[2].SetActive(false);
+        O_Space[3].SetActive(false);
+        O_Space[4].SetActive(false);
+        O_Space[5].SetActive(false);
+        O_Space[6].SetActive(false);
+        O_Space[7].SetActive(false);
+        O_Space[8].SetActive(false);
+        O_Space[9].SetActive(false);
+        O_Space[10].SetActive(false);
+        O_Space[11].SetActive(false);
+        O_Space[12].SetActive(false);
+        O_Space[13].SetActive(false);
+        O_Space[14].SetActive(false);
+        O_Space[15].SetActive(false);
+        O_Space[16].SetActive(false);
+        O_Space[17].SetActive(false);
+        O_Space[18].SetActive(false);
+        O_Space[19].SetActive(false);
+        O_Space[20].SetActive(false);
+        O_Space[21].SetActive(false);
+        O_Space[22].SetActive(false);
+        O_Space[23].SetActive(false);
+        O_Space[24].SetActive(false);
+    }
     public void Wincheck()
     {
        //updating for 5*5 soon

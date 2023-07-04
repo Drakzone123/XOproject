@@ -1693,7 +1693,7 @@ GameObject:
   - component: {fileID: 213762768}
   - component: {fileID: 213762767}
   m_Layer: 5
-  m_Name: D2
+  m_Name: D2_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
-  Box: {fileID: 213762765}
+  Box: {fileID: 2108897474}
   WX: []
   WO: []
 --- !u!114 &213762768
@@ -1789,7 +1789,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 213762769}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 213762767}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 213762767}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &213762769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1842,7 +1878,7 @@ GameObject:
   - component: {fileID: 226053289}
   - component: {fileID: 226053288}
   m_Layer: 5
-  m_Name: B1
+  m_Name: B1_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1892,7 +1928,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 454282959}
   O: {fileID: 444638669}
-  Box: {fileID: 226053286}
+  Box: {fileID: 2017331507}
   WX: []
   WO: []
 --- !u!114 &226053289
@@ -1938,7 +1974,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 226053290}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 226053288}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 226053288}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &226053290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2029,7 +2101,7 @@ GameObject:
   - component: {fileID: 231662522}
   - component: {fileID: 231662521}
   m_Layer: 5
-  m_Name: A4
+  m_Name: A4_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2079,7 +2151,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
-  Box: {fileID: 231662519}
+  Box: {fileID: 725286623}
   WX: []
   WO: []
 --- !u!114 &231662522
@@ -2125,7 +2197,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 231662523}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 231662521}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 231662521}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &231662523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2178,7 +2286,7 @@ GameObject:
   - component: {fileID: 243600140}
   - component: {fileID: 243600139}
   m_Layer: 5
-  m_Name: E1
+  m_Name: E1_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2228,7 +2336,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 383528168}
   O: {fileID: 6678178}
-  Box: {fileID: 243600137}
+  Box: {fileID: 1857924055}
   WX: []
   WO: []
 --- !u!114 &243600140
@@ -2274,7 +2382,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 243600141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 243600139}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 243600139}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &243600141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2787,7 +2931,7 @@ GameObject:
   - component: {fileID: 278923649}
   - component: {fileID: 278923648}
   m_Layer: 5
-  m_Name: A1
+  m_Name: A1_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2837,7 +2981,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
-  Box: {fileID: 278923646}
+  Box: {fileID: 415780495}
   WX: []
   WO: []
 --- !u!114 &278923649
@@ -2883,7 +3027,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 278923650}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 278923648}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 278923648}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &278923650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3276,7 +3456,7 @@ GameObject:
   - component: {fileID: 299798640}
   - component: {fileID: 299798639}
   m_Layer: 5
-  m_Name: E4
+  m_Name: E4_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3506,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 884828145}
   O: {fileID: 347808189}
-  Box: {fileID: 299798637}
+  Box: {fileID: 97244671}
   WX: []
   WO: []
 --- !u!114 &299798640
@@ -3372,7 +3552,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299798641}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 299798639}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 299798639}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299798641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3501,7 +3717,7 @@ GameObject:
   - component: {fileID: 305066548}
   - component: {fileID: 305066547}
   m_Layer: 5
-  m_Name: A5
+  m_Name: A5_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3551,7 +3767,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 850765969}
   O: {fileID: 763682337}
-  Box: {fileID: 305066545}
+  Box: {fileID: 936738238}
   WX: []
   WO: []
 --- !u!114 &305066548
@@ -3597,7 +3813,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 305066549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 305066547}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 305066547}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &305066549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3764,7 +4016,7 @@ GameObject:
   - component: {fileID: 351264080}
   - component: {fileID: 351264079}
   m_Layer: 5
-  m_Name: C4
+  m_Name: C4_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3814,7 +4066,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 733607611}
   O: {fileID: 577257955}
-  Box: {fileID: 351264077}
+  Box: {fileID: 1544587270}
   WX: []
   WO: []
 --- !u!114 &351264080
@@ -3860,7 +4112,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 351264081}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 351264079}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 351264079}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &351264081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4141,7 +4429,7 @@ GameObject:
   - component: {fileID: 391198231}
   - component: {fileID: 391198230}
   m_Layer: 5
-  m_Name: D4
+  m_Name: D4_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4191,7 +4479,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
-  Box: {fileID: 391198228}
+  Box: {fileID: 270430643}
   WX: []
   WO: []
 --- !u!114 &391198231
@@ -4237,7 +4525,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 391198232}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 391198230}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 391198230}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &391198232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4290,7 +4614,7 @@ GameObject:
   - component: {fileID: 398820929}
   - component: {fileID: 398820928}
   m_Layer: 5
-  m_Name: E5
+  m_Name: E5_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4340,7 +4664,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 74206002}
   O: {fileID: 435628601}
-  Box: {fileID: 398820926}
+  Box: {fileID: 1221974613}
   WX: []
   WO: []
 --- !u!114 &398820929
@@ -4386,7 +4710,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 398820930}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 398820928}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 398820928}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &398820930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4515,7 +4875,7 @@ GameObject:
   - component: {fileID: 406832965}
   - component: {fileID: 406832964}
   m_Layer: 5
-  m_Name: E3
+  m_Name: E3_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4565,7 +4925,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
-  Box: {fileID: 406832962}
+  Box: {fileID: 280404464}
   WX: []
   WO: []
 --- !u!114 &406832965
@@ -4611,7 +4971,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406832966}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 406832964}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 406832964}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &406832966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5001,7 +5397,7 @@ GameObject:
   - component: {fileID: 439643881}
   - component: {fileID: 439643880}
   m_Layer: 5
-  m_Name: C2
+  m_Name: C2_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5051,7 +5447,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
-  Box: {fileID: 439643878}
+  Box: {fileID: 175668955}
   WX: []
   WO: []
 --- !u!114 &439643881
@@ -5097,7 +5493,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 439643882}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439643880}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 439643880}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &439643882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5150,7 +5582,7 @@ GameObject:
   - component: {fileID: 441558606}
   - component: {fileID: 441558605}
   m_Layer: 5
-  m_Name: B3
+  m_Name: B3_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5200,7 +5632,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
-  Box: {fileID: 441558603}
+  Box: {fileID: 176036439}
   WX: []
   WO: []
 --- !u!114 &441558606
@@ -5246,7 +5678,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 441558607}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 441558605}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 441558605}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &441558607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5771,7 +6239,7 @@ GameObject:
   - component: {fileID: 529049117}
   - component: {fileID: 529049116}
   m_Layer: 5
-  m_Name: B1
+  m_Name: B1_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5821,7 +6289,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 454282959}
   O: {fileID: 444638669}
-  Box: {fileID: 529049114}
+  Box: {fileID: 2017331507}
   WX: []
   WO: []
 --- !u!114 &529049117
@@ -5867,7 +6335,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 529049118}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 529049116}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 529049116}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &529049118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6148,7 +6652,7 @@ GameObject:
   - component: {fileID: 590065561}
   - component: {fileID: 590065560}
   m_Layer: 5
-  m_Name: B4
+  m_Name: B4_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6198,7 +6702,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
-  Box: {fileID: 590065558}
+  Box: {fileID: 176036439}
   WX: []
   WO: []
 --- !u!114 &590065561
@@ -6244,7 +6748,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 590065562}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 590065560}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 590065560}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &590065562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6659,7 +7199,7 @@ GameObject:
   - component: {fileID: 637403985}
   - component: {fileID: 637403984}
   m_Layer: 5
-  m_Name: E2
+  m_Name: E2_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6709,7 +7249,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 882381180}
   O: {fileID: 88239539}
-  Box: {fileID: 637403982}
+  Box: {fileID: 148692971}
   WX: []
   WO: []
 --- !u!114 &637403985
@@ -6755,7 +7295,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 637403986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 637403984}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 637403984}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &637403986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6808,7 +7384,7 @@ GameObject:
   - component: {fileID: 696760835}
   - component: {fileID: 696760834}
   m_Layer: 5
-  m_Name: E4
+  m_Name: E4_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6858,7 +7434,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 884828145}
   O: {fileID: 347808189}
-  Box: {fileID: 696760832}
+  Box: {fileID: 97244671}
   WX: []
   WO: []
 --- !u!114 &696760835
@@ -6904,7 +7480,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 696760836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 696760834}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 696760834}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696760836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7755,7 +8367,7 @@ MonoBehaviour:
   - {fileID: 529049114}
   - {fileID: 1737015172}
   - {fileID: 1876821055}
-  - {fileID: 1598708790}
+  - {fileID: 0}
   - {fileID: 1595211138}
   - {fileID: 1965013048}
   - {fileID: 1985531799}
@@ -7906,7 +8518,7 @@ GameObject:
   - component: {fileID: 798497048}
   - component: {fileID: 798497047}
   m_Layer: 5
-  m_Name: A3
+  m_Name: A3_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7956,7 +8568,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
-  Box: {fileID: 798497045}
+  Box: {fileID: 1228810584}
   WX: []
   WO: []
 --- !u!114 &798497048
@@ -8002,7 +8614,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 798497049}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 798497047}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 798497047}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &798497049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8131,7 +8779,7 @@ GameObject:
   - component: {fileID: 843421016}
   - component: {fileID: 843421015}
   m_Layer: 5
-  m_Name: C3
+  m_Name: C3_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8181,7 +8829,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
-  Box: {fileID: 843421013}
+  Box: {fileID: 948031086}
   WX: []
   WO: []
 --- !u!114 &843421016
@@ -8227,7 +8875,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843421017}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 843421015}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 843421015}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &843421017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8736,7 +9420,7 @@ GameObject:
   - component: {fileID: 894083051}
   - component: {fileID: 894083050}
   m_Layer: 5
-  m_Name: E2
+  m_Name: E2_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8786,7 +9470,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 882381180}
   O: {fileID: 88239539}
-  Box: {fileID: 894083048}
+  Box: {fileID: 148692971}
   WX: []
   WO: []
 --- !u!114 &894083051
@@ -8832,7 +9516,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 894083052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 894083050}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 894083050}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &894083052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9707,7 +10427,7 @@ GameObject:
   - component: {fileID: 973427801}
   - component: {fileID: 973427800}
   m_Layer: 5
-  m_Name: D4
+  m_Name: D4_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9757,7 +10477,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
-  Box: {fileID: 973427798}
+  Box: {fileID: 270430643}
   WX: []
   WO: []
 --- !u!114 &973427801
@@ -9803,7 +10523,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 973427802}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 973427800}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 973427800}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &973427802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10041,7 +10797,7 @@ GameObject:
   - component: {fileID: 1017751210}
   - component: {fileID: 1017751209}
   m_Layer: 5
-  m_Name: A2
+  m_Name: A2_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10091,7 +10847,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
-  Box: {fileID: 1017751207}
+  Box: {fileID: 701044629}
   WX: []
   WO: []
 --- !u!114 &1017751210
@@ -10137,7 +10893,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1017751211}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1017751209}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1017751209}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1017751211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10190,7 +10982,7 @@ GameObject:
   - component: {fileID: 1035137654}
   - component: {fileID: 1035137653}
   m_Layer: 5
-  m_Name: C4
+  m_Name: C4_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10240,7 +11032,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 733607611}
   O: {fileID: 577257955}
-  Box: {fileID: 1035137651}
+  Box: {fileID: 1544587270}
   WX: []
   WO: []
 --- !u!114 &1035137654
@@ -10286,7 +11078,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1035137655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1035137653}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1035137653}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1035137655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10339,7 +11167,7 @@ GameObject:
   - component: {fileID: 1037724232}
   - component: {fileID: 1037724231}
   m_Layer: 5
-  m_Name: B5
+  m_Name: B5_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10389,7 +11217,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 732677292}
   O: {fileID: 505564052}
-  Box: {fileID: 1037724229}
+  Box: {fileID: 1318898}
   WX: []
   WO: []
 --- !u!114 &1037724232
@@ -10435,7 +11263,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1037724233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1037724231}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1037724231}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1037724233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11214,7 +12078,7 @@ GameObject:
   - component: {fileID: 1218800116}
   - component: {fileID: 1218800115}
   m_Layer: 5
-  m_Name: E1
+  m_Name: E1_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11264,7 +12128,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 383528168}
   O: {fileID: 6678178}
-  Box: {fileID: 1218800113}
+  Box: {fileID: 1857924055}
   WX: []
   WO: []
 --- !u!114 &1218800116
@@ -11310,7 +12174,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1218800117}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1218800115}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1218800115}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1218800117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11363,7 +12263,7 @@ GameObject:
   - component: {fileID: 1220583837}
   - component: {fileID: 1220583836}
   m_Layer: 5
-  m_Name: C5
+  m_Name: C5_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11413,7 +12313,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 503846246}
   O: {fileID: 352557950}
-  Box: {fileID: 1220583834}
+  Box: {fileID: 1008584046}
   WX: []
   WO: []
 --- !u!114 &1220583837
@@ -11459,7 +12359,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1220583838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1220583836}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1220583836}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1220583838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12152,7 +13088,7 @@ MonoBehaviour:
   - {fileID: 529049114}
   - {fileID: 1737015172}
   - {fileID: 1876821055}
-  - {fileID: 1598708790}
+  - {fileID: 1342052321}
   - {fileID: 1595211138}
   - {fileID: 1965013048}
   - {fileID: 1985531799}
@@ -12308,7 +13244,7 @@ GameObject:
   - component: {fileID: 1299449931}
   - component: {fileID: 1299449930}
   m_Layer: 5
-  m_Name: E5
+  m_Name: E5_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12358,7 +13294,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 74206002}
   O: {fileID: 435628601}
-  Box: {fileID: 1299449928}
+  Box: {fileID: 1221974613}
   WX: []
   WO: []
 --- !u!114 &1299449931
@@ -12404,7 +13340,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1299449932}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1299449930}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1299449930}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1299449932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12495,7 +13467,7 @@ GameObject:
   - component: {fileID: 1327941802}
   - component: {fileID: 1327941801}
   m_Layer: 5
-  m_Name: A1
+  m_Name: A1_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12545,7 +13517,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
-  Box: {fileID: 1327941799}
+  Box: {fileID: 415780495}
   WX: []
   WO: []
 --- !u!114 &1327941802
@@ -12591,7 +13563,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1327941803}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1327941801}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1327941801}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1327941803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12747,6 +13755,191 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1342052321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342052322}
+  - component: {fileID: 1342052326}
+  - component: {fileID: 1342052325}
+  - component: {fileID: 1342052324}
+  - component: {fileID: 1342052323}
+  m_Layer: 5
+  m_Name: B4_Oskillarea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1342052322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342052321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1787401095}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 215, y: 174}
+  m_SizeDelta: {x: 120, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1342052323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342052321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X_skill: []
+  O_skill: []
+  X_skillUsed: []
+  O_skillUsed: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
+  X_Usebutton: {fileID: 0}
+  O_Usebutton: {fileID: 0}
+  X: {fileID: 495493974}
+  O: {fileID: 1996502632}
+  Box: {fileID: 1239382666}
+  WX: []
+  WO: []
+--- !u!114 &1342052324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342052321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1342052325}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1342052323}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1342052323}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1342052325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342052321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.36078432}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1342052326
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342052321}
+  m_CullTransparentMesh: 1
 --- !u!1 &1350491715
 GameObject:
   m_ObjectHideFlags: 0
@@ -12761,7 +13954,7 @@ GameObject:
   - component: {fileID: 1350491718}
   - component: {fileID: 1350491717}
   m_Layer: 5
-  m_Name: D2
+  m_Name: D2_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12811,7 +14004,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
-  Box: {fileID: 1350491715}
+  Box: {fileID: 2108897474}
   WX: []
   WO: []
 --- !u!114 &1350491718
@@ -12857,7 +14050,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1350491719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1350491717}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1350491717}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1350491719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13176,7 +14405,7 @@ GameObject:
   - component: {fileID: 1447025890}
   - component: {fileID: 1447025889}
   m_Layer: 5
-  m_Name: D1
+  m_Name: D1_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13226,7 +14455,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
-  Box: {fileID: 1447025887}
+  Box: {fileID: 1601025241}
   WX: []
   WO: []
 --- !u!114 &1447025890
@@ -13272,7 +14501,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1447025891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1447025889}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1447025889}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1447025891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13439,7 +14704,7 @@ GameObject:
   - component: {fileID: 1471529038}
   - component: {fileID: 1471529037}
   m_Layer: 5
-  m_Name: C1
+  m_Name: C1_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13489,7 +14754,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
-  Box: {fileID: 1471529035}
+  Box: {fileID: 1478294607}
   WX: []
   WO: []
 --- !u!114 &1471529038
@@ -13535,7 +14800,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1471529039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1471529037}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1471529037}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1471529039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14338,7 +15639,7 @@ GameObject:
   - component: {fileID: 1558617442}
   - component: {fileID: 1558617441}
   m_Layer: 5
-  m_Name: D5
+  m_Name: D5_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14388,7 +15689,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
-  Box: {fileID: 1558617439}
+  Box: {fileID: 897773522}
   WX: []
   WO: []
 --- !u!114 &1558617442
@@ -14434,7 +15735,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1558617443}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1558617441}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1558617441}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1558617443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14563,7 +15900,7 @@ GameObject:
   - component: {fileID: 1595211141}
   - component: {fileID: 1595211140}
   m_Layer: 5
-  m_Name: B5
+  m_Name: B5_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14613,7 +15950,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 732677292}
   O: {fileID: 505564052}
-  Box: {fileID: 1595211138}
+  Box: {fileID: 1318898}
   WX: []
   WO: []
 --- !u!114 &1595211141
@@ -14659,7 +15996,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1595211142}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1595211140}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1595211140}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1595211142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14697,155 +16070,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595211138}
-  m_CullTransparentMesh: 1
---- !u!1 &1598708790
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1598708791}
-  - component: {fileID: 1598708795}
-  - component: {fileID: 1598708794}
-  - component: {fileID: 1598708793}
-  - component: {fileID: 1598708792}
-  m_Layer: 5
-  m_Name: B4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1598708791
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598708790}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1787401095}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207, y: 174}
-  m_SizeDelta: {x: 120, y: 120}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1598708792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598708790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  X_skill: []
-  O_skill: []
-  X_skillUsed: []
-  O_skillUsed: []
-  X_Space: []
-  O_Space: []
-  X_Skillcontrol: []
-  O_Skillcontrol: []
-  X_Usebutton: {fileID: 0}
-  O_Usebutton: {fileID: 0}
-  X: {fileID: 495493974}
-  O: {fileID: 1996502632}
-  Box: {fileID: 1598708790}
-  WX: []
-  WO: []
---- !u!114 &1598708793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598708790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1598708794}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1598708794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598708790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 0.36078432}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1598708795
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598708790}
   m_CullTransparentMesh: 1
 --- !u!1 &1601025241
 GameObject:
@@ -15046,7 +16270,7 @@ GameObject:
   - component: {fileID: 1601954981}
   - component: {fileID: 1601954980}
   m_Layer: 5
-  m_Name: C3
+  m_Name: C3_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15096,7 +16320,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
-  Box: {fileID: 1601954978}
+  Box: {fileID: 948031086}
   WX: []
   WO: []
 --- !u!114 &1601954981
@@ -15142,7 +16366,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1601954982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1601954980}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1601954980}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1601954982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15782,7 +17042,7 @@ GameObject:
   - component: {fileID: 1671404245}
   - component: {fileID: 1671404244}
   m_Layer: 5
-  m_Name: B2
+  m_Name: B2_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15832,7 +17092,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 379501060}
   O: {fileID: 952576696}
-  Box: {fileID: 1671404242}
+  Box: {fileID: 1616295730}
   WX: []
   WO: []
 --- !u!114 &1671404245
@@ -15878,7 +17138,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1671404246}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1671404244}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1671404244}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1671404246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15969,7 +17265,7 @@ GameObject:
   - component: {fileID: 1683602019}
   - component: {fileID: 1683602018}
   m_Layer: 5
-  m_Name: D1
+  m_Name: D1_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16019,7 +17315,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
-  Box: {fileID: 1683602016}
+  Box: {fileID: 1601025241}
   WX: []
   WO: []
 --- !u!114 &1683602019
@@ -16065,7 +17361,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1683602020}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1683602018}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1683602018}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1683602020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16118,7 +17450,7 @@ GameObject:
   - component: {fileID: 1688503890}
   - component: {fileID: 1688503889}
   m_Layer: 5
-  m_Name: A4
+  m_Name: A4_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16168,7 +17500,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
-  Box: {fileID: 1688503887}
+  Box: {fileID: 725286623}
   WX: []
   WO: []
 --- !u!114 &1688503890
@@ -16214,7 +17546,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1688503891}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1688503889}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1688503889}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1688503891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16381,7 +17749,7 @@ GameObject:
   - component: {fileID: 1737015175}
   - component: {fileID: 1737015174}
   m_Layer: 5
-  m_Name: B2
+  m_Name: B2_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16431,7 +17799,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 379501060}
   O: {fileID: 952576696}
-  Box: {fileID: 1737015172}
+  Box: {fileID: 1616295730}
   WX: []
   WO: []
 --- !u!114 &1737015175
@@ -16477,7 +17845,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1737015176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1737015174}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1737015174}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1737015176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16552,7 +17956,7 @@ RectTransform:
   - {fileID: 529049115}
   - {fileID: 1737015173}
   - {fileID: 1876821056}
-  - {fileID: 1598708791}
+  - {fileID: 1342052322}
   - {fileID: 1595211139}
   - {fileID: 1965013049}
   - {fileID: 1985531800}
@@ -16591,7 +17995,7 @@ GameObject:
   - component: {fileID: 1799208783}
   - component: {fileID: 1799208782}
   m_Layer: 5
-  m_Name: D5
+  m_Name: D5_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16641,7 +18045,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
-  Box: {fileID: 1799208780}
+  Box: {fileID: 897773522}
   WX: []
   WO: []
 --- !u!114 &1799208783
@@ -16687,7 +18091,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1799208784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1799208782}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1799208782}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1799208784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17039,7 +18479,7 @@ GameObject:
   - component: {fileID: 1874117678}
   - component: {fileID: 1874117677}
   m_Layer: 5
-  m_Name: D3
+  m_Name: D3_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17089,7 +18529,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
-  Box: {fileID: 1874117675}
+  Box: {fileID: 2127812572}
   WX: []
   WO: []
 --- !u!114 &1874117678
@@ -17135,7 +18575,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1874117679}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1874117677}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1874117677}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1874117679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17188,7 +18664,7 @@ GameObject:
   - component: {fileID: 1876821058}
   - component: {fileID: 1876821057}
   m_Layer: 5
-  m_Name: B3
+  m_Name: B3_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17238,7 +18714,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
-  Box: {fileID: 1876821055}
+  Box: {fileID: 176036439}
   WX: []
   WO: []
 --- !u!114 &1876821058
@@ -17284,7 +18760,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1876821059}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1876821057}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1876821057}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1876821059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17489,7 +19001,7 @@ GameObject:
   - component: {fileID: 1943016835}
   - component: {fileID: 1943016834}
   m_Layer: 5
-  m_Name: A5
+  m_Name: A5_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17539,7 +19051,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 850765969}
   O: {fileID: 763682337}
-  Box: {fileID: 1943016832}
+  Box: {fileID: 936738238}
   WX: []
   WO: []
 --- !u!114 &1943016835
@@ -17585,7 +19097,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1943016836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1943016834}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1943016834}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1943016836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17752,7 +19300,7 @@ GameObject:
   - component: {fileID: 1961817436}
   - component: {fileID: 1961817435}
   m_Layer: 5
-  m_Name: C5
+  m_Name: C5_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17802,7 +19350,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 503846246}
   O: {fileID: 352557950}
-  Box: {fileID: 1961817433}
+  Box: {fileID: 1008584046}
   WX: []
   WO: []
 --- !u!114 &1961817436
@@ -17848,7 +19396,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1961817437}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1961817435}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1961817435}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1961817437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17901,7 +19485,7 @@ GameObject:
   - component: {fileID: 1965013051}
   - component: {fileID: 1965013050}
   m_Layer: 5
-  m_Name: C1
+  m_Name: C1_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17951,7 +19535,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
-  Box: {fileID: 1965013048}
+  Box: {fileID: 1478294607}
   WX: []
   WO: []
 --- !u!114 &1965013051
@@ -17997,7 +19581,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1965013052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1965013050}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1965013050}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1965013052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18088,7 +19708,7 @@ GameObject:
   - component: {fileID: 1979368077}
   - component: {fileID: 1979368076}
   m_Layer: 5
-  m_Name: A2
+  m_Name: A2_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18138,7 +19758,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
-  Box: {fileID: 1979368074}
+  Box: {fileID: 701044629}
   WX: []
   WO: []
 --- !u!114 &1979368077
@@ -18184,7 +19804,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1979368078}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1979368076}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1979368076}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1979368078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18237,7 +19893,7 @@ GameObject:
   - component: {fileID: 1980059340}
   - component: {fileID: 1980059339}
   m_Layer: 5
-  m_Name: D3
+  m_Name: D3_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18287,7 +19943,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
-  Box: {fileID: 1980059337}
+  Box: {fileID: 2127812572}
   WX: []
   WO: []
 --- !u!114 &1980059340
@@ -18333,7 +19989,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1980059341}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1980059339}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1980059339}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1980059341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18386,7 +20078,7 @@ GameObject:
   - component: {fileID: 1985531802}
   - component: {fileID: 1985531801}
   m_Layer: 5
-  m_Name: C2
+  m_Name: C2_Oskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18436,7 +20128,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
-  Box: {fileID: 1985531799}
+  Box: {fileID: 175668955}
   WX: []
   WO: []
 --- !u!114 &1985531802
@@ -18482,7 +20174,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1985531803}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1985531801}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1985531801}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1985531803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18535,7 +20263,7 @@ GameObject:
   - component: {fileID: 1995525166}
   - component: {fileID: 1995525165}
   m_Layer: 5
-  m_Name: E3
+  m_Name: E3_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18585,7 +20313,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
-  Box: {fileID: 1995525163}
+  Box: {fileID: 280404464}
   WX: []
   WO: []
 --- !u!114 &1995525166
@@ -18631,7 +20359,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1995525167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1995525165}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1995525165}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1995525167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19021,7 +20785,7 @@ GameObject:
   - component: {fileID: 2079508742}
   - component: {fileID: 2079508741}
   m_Layer: 5
-  m_Name: A3
+  m_Name: A3_Xskillarea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19071,7 +20835,7 @@ MonoBehaviour:
   O_Usebutton: {fileID: 0}
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
-  Box: {fileID: 2079508739}
+  Box: {fileID: 1228810584}
   WX: []
   WO: []
 --- !u!114 &2079508742
@@ -19117,7 +20881,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2079508743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2079508741}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Turn_Count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2079508741}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Skill_regrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2079508743
 MonoBehaviour:
   m_ObjectHideFlags: 0
