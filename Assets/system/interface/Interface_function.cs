@@ -8,6 +8,7 @@ public class Interface_function : MainSystem
 {
     [Header("Text for Turn counting")]
     [SerializeField] public TextMeshProUGUI turn_number;
+    
 
     [Header("Text for point counting")]
     [SerializeField] public TextMeshProUGUI x_potintCount;
@@ -16,7 +17,16 @@ public class Interface_function : MainSystem
 
     public void Turn_counted()
     {
-        turn_number.text = "Turn: " + turn_Check; 
+        if (count_Number <= 1)
+        {
+            turn_number.text = "Turn: 1";
+        }
+        else
+        { 
+            turn_number.text = "Turn: " + turn_Check; 
+        }
+        
+        
     }
 
     public void Point_count()

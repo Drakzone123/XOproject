@@ -60,7 +60,11 @@ public class MainSystem : MonoBehaviour
     }
     public void Turn_Count()
     {
-        if (count_Number % 2 == 0) turn_Check++;
+        if (count_Number % 2 == 0)
+        {
+            turn_Check++;
+        }
+        
     }
 
     public void Skill_count()
