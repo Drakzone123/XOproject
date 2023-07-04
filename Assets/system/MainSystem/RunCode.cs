@@ -8,6 +8,5 @@ public class RunCode : MainSystem
     {
         Skill_Active();
         
-
     }
 }
