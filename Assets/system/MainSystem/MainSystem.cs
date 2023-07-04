@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainSystem : MonoBehaviour
 {
@@ -22,17 +25,23 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject[] O_Space;
     [SerializeField] public GameObject[] X_Skillcontrol;
     [SerializeField] public GameObject[] O_Skillcontrol;
+    [SerializeField] public GameObject[] X_cooldown_Area;
+    [SerializeField] public GameObject[] O_cooldown_Area;
 
     [SerializeField] public GameObject X_Usebutton;
     [SerializeField] public GameObject O_Usebutton;
 
-
+    [SerializeField] public static int skill_cooldown;
     [SerializeField] public static int X_Turn;
     [SerializeField] public static int O_Turn;
     [SerializeField] public static int X_skillPoint;
     [SerializeField] public static int O_skillPoint;
     [SerializeField] public static int Xskill_Count = 3;
     [SerializeField] public static int Oskill_Count = 3;
+    [SerializeField] public static int[] Xskill_CheckActive = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    [SerializeField] public static int[] Oskill_CheckActive = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+
 
 
 
@@ -76,9 +85,9 @@ public class MainSystem : MonoBehaviour
         {
             turn_Check++;
         }
+
         
     }
-
     public void Skill_count()
     {
         if (X_Turn >= 3 )
@@ -97,7 +106,6 @@ public class MainSystem : MonoBehaviour
 
 
     } 
-
     public void Skill_Active()
     {
         /*------------------------------ Xskillpoint ---------------------*/
@@ -232,7 +240,6 @@ public class MainSystem : MonoBehaviour
 
 
     }
-    
     public void XSkill_Use()
     {
         X_skillPoint--;
@@ -249,7 +256,7 @@ public class MainSystem : MonoBehaviour
     }
     public void Skill_Destroy()
     {
-        count_Number++;
+        
         if (X.activeSelf == true)
         {
             X.SetActive(false);
@@ -534,6 +541,297 @@ public class MainSystem : MonoBehaviour
         O_Space[23].SetActive(false);
         O_Space[24].SetActive(false);
     }
+    public void XSkill_CooldownArea(Button XcooldownArea)
+    {
+        if (XcooldownArea.name == ("A1_Xskillarea"))
+        {
+            Xskill_CheckActive[0] = 2;
+            if (Xskill_CheckActive[0] == 2) X_cooldown_Area[0].SetActive(true);
+        }
+        if (XcooldownArea.name == ("A2_Xskillarea"))
+        {
+            Xskill_CheckActive[1] = 2;
+            if (Xskill_CheckActive[1] == 2) X_cooldown_Area[1].SetActive(true);
+        }
+        if (XcooldownArea.name == ("A3_Xskillarea"))
+        {
+            Xskill_CheckActive[2] = 2;
+            if (Xskill_CheckActive[2] == 2) X_cooldown_Area[2].SetActive(true);
+        }
+        if (XcooldownArea.name == ("A4_Xskillarea"))
+        {
+            Xskill_CheckActive[3] = 2;
+            if (Xskill_CheckActive[3] == 2) X_cooldown_Area[3].SetActive(true);
+        }
+        if (XcooldownArea.name == ("A5_Xskillarea"))
+        {
+            Xskill_CheckActive[4] = 2;
+            if (Xskill_CheckActive[4] == 2) X_cooldown_Area[4].SetActive(true);
+        }
+        if (XcooldownArea.name == ("B1_Xskillarea"))
+        {
+            Xskill_CheckActive[5] = 2;
+            if (Xskill_CheckActive[5] == 2) X_cooldown_Area[5].SetActive(true);
+        }
+        if (XcooldownArea.name == ("B2_Xskillarea"))
+        {
+            Xskill_CheckActive[6] = 2;
+            if (Xskill_CheckActive[6] == 2) X_cooldown_Area[6].SetActive(true);
+        }
+        if (XcooldownArea.name == ("B3_Xskillarea"))
+        {
+            Xskill_CheckActive[7] = 2;
+            if (Xskill_CheckActive[7] == 2) X_cooldown_Area[7].SetActive(true);
+        }
+        if (XcooldownArea.name == ("B4_Xskillarea"))
+        {
+            Xskill_CheckActive[8] = 2;
+            if (Xskill_CheckActive[8] == 2) X_cooldown_Area[8].SetActive(true);
+        }
+        if (XcooldownArea.name == ("B5_Xskillarea"))
+        {
+            Xskill_CheckActive[9] = 2;
+            if (Xskill_CheckActive[9] == 2) X_cooldown_Area[9].SetActive(true);
+        }
+        if (XcooldownArea.name == ("C1_Xskillarea"))
+        {
+            Xskill_CheckActive[10] = 2;
+            if (Xskill_CheckActive[10] == 2) X_cooldown_Area[10].SetActive(true);
+        }
+        if (XcooldownArea.name == ("C2_Xskillarea"))
+        {
+            Xskill_CheckActive[11] = 2;
+            if (Xskill_CheckActive[11] == 2) X_cooldown_Area[11].SetActive(true);
+        }
+        if (XcooldownArea.name == ("C3_Xskillarea"))
+        {
+            Xskill_CheckActive[12] = 2;
+            if (Xskill_CheckActive[12] == 2) X_cooldown_Area[12].SetActive(true);
+        }
+        if (XcooldownArea.name == ("C4_Xskillarea"))
+        {
+            Xskill_CheckActive[13] = 2;
+            if (Xskill_CheckActive[13] == 2) X_cooldown_Area[13].SetActive(true);
+        }
+        if (XcooldownArea.name == ("C5_Xskillarea"))
+        {
+            Xskill_CheckActive[14] = 2;
+            if (Xskill_CheckActive[14] == 2) X_cooldown_Area[14].SetActive(true);
+        }
+        if (XcooldownArea.name == ("D1_Xskillarea"))
+        {
+            Xskill_CheckActive[15] = 2;
+            if (Xskill_CheckActive[15] == 2) X_cooldown_Area[15].SetActive(true);
+        }
+        if (XcooldownArea.name == ("D2_Xskillarea"))
+        {
+            Xskill_CheckActive[16] = 2;
+            if (Xskill_CheckActive[16] == 2) X_cooldown_Area[16].SetActive(true);
+        }
+        if (XcooldownArea.name == ("D3_Xskillarea"))
+        {
+            Xskill_CheckActive[17] = 2;
+            if (Xskill_CheckActive[17] == 2) X_cooldown_Area[17].SetActive(true);
+        }
+        if (XcooldownArea.name == ("D4_Xskillarea"))
+        {
+            Xskill_CheckActive[18] = 2;
+            if (Xskill_CheckActive[18] == 2) X_cooldown_Area[18].SetActive(true);
+        }
+        if (XcooldownArea.name == ("D5_Xskillarea"))
+        {
+            Xskill_CheckActive[19] = 2;
+            if (Xskill_CheckActive[19] == 2) X_cooldown_Area[19].SetActive(true);
+        }
+        if (XcooldownArea.name == ("E1_Xskillarea"))
+        {
+            Xskill_CheckActive[20] = 2;
+            if (Xskill_CheckActive[20] == 2) X_cooldown_Area[20].SetActive(true);
+        }
+        if (XcooldownArea.name == ("E2_Xskillarea"))
+        {
+            Xskill_CheckActive[21] = 2;
+            if (Xskill_CheckActive[21] == 2) X_cooldown_Area[21].SetActive(true);
+        }
+        if (XcooldownArea.name == ("E3_Xskillarea"))
+        {
+            Xskill_CheckActive[22] = 2;
+            if (Xskill_CheckActive[22] == 2) X_cooldown_Area[22].SetActive(true);
+        }
+        if (XcooldownArea.name == ("E4_Xskillarea"))
+        {
+            Xskill_CheckActive[23] = 2;
+            if (Xskill_CheckActive[23] == 2) X_cooldown_Area[23].SetActive(true);
+        }
+        if (XcooldownArea.name == ("E5_Xskillarea"))
+        {
+            Xskill_CheckActive[24] = 2;
+            if (Xskill_CheckActive[24] == 2) X_cooldown_Area[24].SetActive(true);
+        }
+
+    }
+    public void OSkill_CooldownArea(Button OcooldownArea)
+    {
+        if (OcooldownArea.name == ("A1_Oskillarea"))
+        {
+            Oskill_CheckActive[0] = 2;
+            if (Oskill_CheckActive[0] == 2) O_cooldown_Area[0].SetActive(true);
+        }
+        if (OcooldownArea.name == ("A2_Oskillarea"))
+        {
+            Oskill_CheckActive[1] = 2;
+            if (Oskill_CheckActive[1] == 2) O_cooldown_Area[1].SetActive(true);
+        }
+        if (OcooldownArea.name == ("A3_Oskillarea"))
+        {
+            Oskill_CheckActive[2] = 2;
+            if (Oskill_CheckActive[2] == 2) O_cooldown_Area[2].SetActive(true);
+        }
+        if (OcooldownArea.name == ("A4_Oskillarea"))
+        {
+            Oskill_CheckActive[3] = 2;
+            if (Oskill_CheckActive[3] == 2) O_cooldown_Area[3].SetActive(true);
+        }
+        if (OcooldownArea.name == ("A5_Oskillarea"))
+        {
+            Oskill_CheckActive[4] = 2;
+            if (Oskill_CheckActive[4] == 2) O_cooldown_Area[4].SetActive(true);
+        }
+        if (OcooldownArea.name == ("B1_Oskillarea"))
+        {
+            Oskill_CheckActive[5] = 2;
+            if (Oskill_CheckActive[5] == 2) O_cooldown_Area[5].SetActive(true);
+        }
+        if (OcooldownArea.name == ("B2_Oskillarea"))
+        {
+            Oskill_CheckActive[6] = 2;
+            if (Oskill_CheckActive[6] == 2) O_cooldown_Area[6].SetActive(true);
+        }
+        if (OcooldownArea.name == ("B3_Oskillarea"))
+        {
+            Oskill_CheckActive[7] = 2;
+            if (Oskill_CheckActive[7] == 2) O_cooldown_Area[7].SetActive(true);
+        }
+        if (OcooldownArea.name == ("B4_Oskillarea"))
+        {
+            Oskill_CheckActive[8] = 2;
+            if (Oskill_CheckActive[8] == 2) O_cooldown_Area[8].SetActive(true);
+        }
+        if (OcooldownArea.name == ("B5_Oskillarea"))
+        {
+            Oskill_CheckActive[9] = 2;
+            if (Oskill_CheckActive[9] == 2) O_cooldown_Area[9].SetActive(true);
+        }
+        if (OcooldownArea.name == ("C1_Oskillarea"))
+        {
+            Oskill_CheckActive[10] = 2;
+            if (Oskill_CheckActive[10] == 2) O_cooldown_Area[10].SetActive(true);
+        }
+        if (OcooldownArea.name == ("C2_Oskillarea"))
+        {
+            Oskill_CheckActive[11] = 2;
+            if (Oskill_CheckActive[11] == 2) O_cooldown_Area[11].SetActive(true);
+        }
+        if (OcooldownArea.name == ("C3_Oskillarea"))
+        {
+            Oskill_CheckActive[12] = 2;
+            if (Oskill_CheckActive[12] == 2) O_cooldown_Area[12].SetActive(true);
+        }
+        if (OcooldownArea.name == ("C4_Oskillarea"))
+        {
+            Oskill_CheckActive[13] = 2;
+            if (Oskill_CheckActive[13] == 2) O_cooldown_Area[13].SetActive(true);
+        }
+        if (OcooldownArea.name == ("C5_Oskillarea"))
+        {
+            Oskill_CheckActive[14] = 2;
+            if (Oskill_CheckActive[14] == 2) O_cooldown_Area[14].SetActive(true);
+        }
+        if (OcooldownArea.name == ("D1_Oskillarea"))
+        {
+            Oskill_CheckActive[15] = 2;
+            if (Oskill_CheckActive[15] == 2) O_cooldown_Area[15].SetActive(true);
+        }
+        if (OcooldownArea.name == ("D2_Oskillarea"))
+        {
+            Oskill_CheckActive[16] = 2;
+            if (Oskill_CheckActive[16] == 2) O_cooldown_Area[16].SetActive(true);
+        }
+        if (OcooldownArea.name == ("D3_Oskillarea"))
+        {
+            Oskill_CheckActive[17] = 2;
+            if (Oskill_CheckActive[17] == 2) O_cooldown_Area[17].SetActive(true);
+        }
+        if (OcooldownArea.name == ("D4_Oskillarea"))
+        {
+            Oskill_CheckActive[18] = 2;
+            if (Oskill_CheckActive[18] == 2) O_cooldown_Area[18].SetActive(true);
+        }
+        if (OcooldownArea.name == ("D5_Oskillarea"))
+        {
+            Oskill_CheckActive[19] = 2;
+            if (Oskill_CheckActive[19] == 2) O_cooldown_Area[19].SetActive(true);
+        }
+        if (OcooldownArea.name == ("E1_Oskillarea"))
+        {
+            Oskill_CheckActive[20] = 2;
+            if (Oskill_CheckActive[20] == 2) O_cooldown_Area[20].SetActive(true);
+        }
+        if (OcooldownArea.name == ("E2_Oskillarea"))
+        {
+            Oskill_CheckActive[21] = 2;
+            if (Oskill_CheckActive[21] == 2) O_cooldown_Area[21].SetActive(true);
+        }
+        if (OcooldownArea.name == ("E3_Oskillarea"))
+        {
+            Oskill_CheckActive[22] = 2;
+            if (Oskill_CheckActive[22] == 2) O_cooldown_Area[22].SetActive(true);
+        }
+        if (OcooldownArea.name == ("E4_Oskillarea"))
+        {
+            Oskill_CheckActive[23] = 2;
+            if (Oskill_CheckActive[23] == 2) O_cooldown_Area[23].SetActive(true);
+        }
+        if (OcooldownArea.name == ("E5_Oskillarea"))
+        {
+            Oskill_CheckActive[24] = 2;
+            if (Oskill_CheckActive[24] == 2) O_cooldown_Area[24].SetActive(true);
+        }
+
+    }
+    public void XCooldown_Count()
+    {
+        for (int Xcd_Count = 0; Xcd_Count < 25; Xcd_Count++)
+        {
+            if (Xskill_CheckActive[Xcd_Count] > 0)
+            {
+                Xskill_CheckActive[Xcd_Count]--;
+                if (Xskill_CheckActive[Xcd_Count] <= 0)
+                {
+                    Xskill_CheckActive[Xcd_Count] = 0;
+                    X_cooldown_Area[Xcd_Count].SetActive(false);
+                }
+            }
+        }
+
+    }
+    public void OCooldown_Count()
+    {
+        for (int Ocd_Count = 0; Ocd_Count < 25; Ocd_Count++)
+        {
+            if (Oskill_CheckActive[Ocd_Count] > 0)
+            {
+                Oskill_CheckActive[Ocd_Count]--;
+                if (Xskill_CheckActive[Ocd_Count] <= 0)
+                {
+                    Oskill_CheckActive[Ocd_Count] = 0;
+                    O_cooldown_Area[Ocd_Count].SetActive(false);
+                }
+            }
+        }
+
+    }
+    
     public void Wincheck()
     {
        //updating for 5*5 soon
