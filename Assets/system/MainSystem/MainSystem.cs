@@ -676,6 +676,7 @@ public class MainSystem : MonoBehaviour
         {
             Oskill_CheckActive[0] = 2;
             if (Oskill_CheckActive[0] == 2) O_cooldown_Area[0].SetActive(true);
+            
         }
         if (OcooldownArea.name == ("A2_Oskillarea"))
         {
@@ -822,7 +823,7 @@ public class MainSystem : MonoBehaviour
             if (Oskill_CheckActive[Ocd_Count] > 0)
             {
                 Oskill_CheckActive[Ocd_Count]--;
-                if (Xskill_CheckActive[Ocd_Count] <= 0)
+                if (Oskill_CheckActive[Ocd_Count] <= 0)
                 {
                     Oskill_CheckActive[Ocd_Count] = 0;
                     O_cooldown_Area[Ocd_Count].SetActive(false);

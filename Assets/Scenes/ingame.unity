@@ -522,7 +522,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 21874532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21874531}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &21874532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +685,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 25258366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 25258365}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &25258366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +1023,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 43423488}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 43423487}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &43423488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,7 +1186,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 46560746}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 46560745}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &46560746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1301,7 +1349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 63377592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 63377591}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &63377592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1680,7 +1740,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86922752}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 86922751}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &86922752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1907,7 +1979,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 90396598}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 90396597}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &90396598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2269,7 +2353,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 100322659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 100322658}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &100322659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2420,7 +2516,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110266509}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 110266508}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110266509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,7 +2679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 123301503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 123301502}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &123301503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3009,7 +3129,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162677423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 162677422}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &162677423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3160,7 +3292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 164289186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 164289185}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &164289186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3733,7 +3877,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186526115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 186526114}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &186526115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3884,7 +4040,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 205794477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 205794476}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &205794477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4035,7 +4203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 212034608}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 212034607}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &212034608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4409,7 +4589,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 218000416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 218000415}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &218000416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5407,7 +5599,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 267270086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 267270085}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &267270086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7078,7 +7282,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 309283134}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 309283133}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &309283134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7566,7 +7782,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 352223350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 352223349}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &352223350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7793,7 +8021,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 356736393}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 356736392}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &356736393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8542,7 +8782,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 396837651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 396837650}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &396837651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9215,7 +9467,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 411881682}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 411881681}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &411881682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9653,7 +9917,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 429087115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 429087114}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &429087115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10478,7 +10754,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 493511969}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 493511968}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &493511969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10857,7 +11145,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 507791988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 507791987}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &507791988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11008,7 +11308,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509602483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 509602482}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &509602483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11925,7 +12237,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593412687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 593412686}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &593412687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12661,7 +12985,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 650624958}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 650624957}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &650624958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13246,7 +13582,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723826738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 723826737}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &723826738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14191,7 +14539,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 784957922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 784957921}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &784957922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14565,7 +14925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 812000992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 812000991}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &812000992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14792,7 +15164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 838083424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 838083423}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &838083424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16706,7 +17090,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 953748914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 953748913}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &953748914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16896,7 +17292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 972149771}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 972149770}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &972149771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17270,7 +17678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 984887862}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 984887861}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &984887862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20106,7 +20526,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1255210979}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1255210978}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1255210979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20775,7 +21207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1305202528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1305202527}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1305202528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21641,7 +22085,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1387881901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1387881900}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1387881901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21868,7 +22324,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1415649101}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1415649100}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1415649101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24624,7 +25092,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626013022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1626013021}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1626013022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26221,7 +26701,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752742147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1752742146}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1752742147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26656,7 +27148,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1805949722}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1805949721}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1805949722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27730,7 +28234,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1910368291}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1910368290}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1910368291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28702,7 +29218,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974492957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1974492956}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1974492957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29522,7 +30050,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1987787587}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1987787586}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1987787587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29972,7 +30512,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010738612}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2010738611}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2010738612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30433,7 +30985,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2077945659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2077945658}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2077945659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31208,7 +31772,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2113375190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2113375189}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2113375190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31359,7 +31935,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2121064091}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: OSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2121064090}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2121064091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31721,7 +32309,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2133584846}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: XSkill_CooldownArea
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2133584845}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2133584846
 MonoBehaviour:
   m_ObjectHideFlags: 0
