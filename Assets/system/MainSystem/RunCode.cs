@@ -6,7 +6,7 @@ public class RunCode : MainSystem
 {
     private void FixedUpdate()
     {
-        //Skill_Active();
+        Skill_Active();
         
     }
 }

@@ -18,8 +18,11 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject[] O_skill;
     [SerializeField] public GameObject[] X_skillUsed;
     [SerializeField] public GameObject[] O_skillUsed;
-    [SerializeField] public GameObject[] Xskill_Affectspace;
-    [SerializeField] public GameObject[] Oskill_Affectspace;
+    [SerializeField] public GameObject[] X_Space;
+    [SerializeField] public GameObject[] O_Space;
+    [SerializeField] public GameObject[] X_Skillcontrol;
+    [SerializeField] public GameObject[] O_Skillcontrol;
+
     [SerializeField] public GameObject X_Usebutton;
     [SerializeField] public GameObject O_Usebutton;
 
@@ -234,25 +237,222 @@ public class MainSystem : MonoBehaviour
     {
         X_skillPoint--;
         Xskill_Count--;
-        //X_SkillAffectspace();
-       
+        X_Affectskillspace();
     }
     public void OSkill_Use()
     {
         O_skillPoint--;
         Oskill_Count--;
-       // O_SkillAffectspace();
-
+        O_Affectskillspace();
+        
 
     }
-   /* public void X_SkillAffectspace()
+    public void X_Affectskillspace()
     {
-        
+        if (O_Skillcontrol[0].activeSelf == true)
+        {
+            X_Space[0].SetActive(true);
+        }
+        if (O_Skillcontrol[1].activeSelf == true)
+        {
+            X_Space[1].SetActive(true);
+        }
+        if (O_Skillcontrol[2].activeSelf == true)
+        {
+            X_Space[2].SetActive(true);
+        }
+        if (O_Skillcontrol[3].activeSelf == true)
+        {
+            X_Space[3].SetActive(true);
+        }
+        if (O_Skillcontrol[4].activeSelf == true)
+        {
+            X_Space[4].SetActive(true);
+        }
+        if (O_Skillcontrol[5].activeSelf == true)
+        {
+            X_Space[5].SetActive(true);
+        }
+        if (O_Skillcontrol[6].activeSelf == true)
+        {
+            X_Space[6].SetActive(true);
+        }
+        if (O_Skillcontrol[7].activeSelf == true)
+        {
+            X_Space[7].SetActive(true);
+        }
+        if (O_Skillcontrol[8].activeSelf == true)
+        {
+            X_Space[8].SetActive(true);
+        }
+        if (O_Skillcontrol[9].activeSelf == true)
+        {
+            X_Space[9].SetActive(true);
+        }
+        if (O_Skillcontrol[10].activeSelf == true)
+        {
+            X_Space[10].SetActive(true);
+        }
+        if (O_Skillcontrol[11].activeSelf == true)
+        {
+            X_Space[11].SetActive(true);
+        }
+        if (O_Skillcontrol[12].activeSelf == true)
+        {
+            X_Space[12].SetActive(true);
+        }
+        if (O_Skillcontrol[13].activeSelf == true)
+        {
+            X_Space[13].SetActive(true);
+        }
+        if (O_Skillcontrol[14].activeSelf == true)
+        {
+            X_Space[14].SetActive(true);
+        }
+        if (O_Skillcontrol[15].activeSelf == true)
+        {
+            X_Space[15].SetActive(true);
+        }
+        if (O_Skillcontrol[16].activeSelf == true)
+        {
+            X_Space[16].SetActive(true);
+        }
+        if (O_Skillcontrol[17].activeSelf == true)
+        {
+            X_Space[17].SetActive(true);
+        }
+        if (O_Skillcontrol[18].activeSelf == true)
+        {
+            X_Space[18].SetActive(true);
+        }
+        if (O_Skillcontrol[19].activeSelf == true)
+        {
+            X_Space[19].SetActive(true);
+        }
+        if (O_Skillcontrol[20].activeSelf == true)
+        {
+            X_Space[20].SetActive(true);
+        }
+        if (O_Skillcontrol[21].activeSelf == true)
+        {
+            X_Space[21].SetActive(true);
+        }
+        if (O_Skillcontrol[22].activeSelf == true)
+        {
+            X_Space[22].SetActive(true);
+        }
+        if (O_Skillcontrol[23].activeSelf == true)
+        {
+            X_Space[23].SetActive(true);
+        }
+        if (O_Skillcontrol[24].activeSelf == true)
+        {
+            X_Space[24].SetActive(true);
+        }
     }
-    public void O_SkillAffectspace()
+    public void O_Affectskillspace()
     {
-        
-    }*/
+        if (X_Skillcontrol[0].activeSelf == true)
+        {
+            O_Space[0].SetActive(true);
+        }
+        if (X_Skillcontrol[1].activeSelf == true)
+        {
+            O_Space[1].SetActive(true);
+        }
+        if (X_Skillcontrol[2].activeSelf == true)
+        {
+            O_Space[2].SetActive(true);
+        }
+        if (X_Skillcontrol[3].activeSelf == true)
+        {
+            O_Space[3].SetActive(true);
+        }
+        if (X_Skillcontrol[4].activeSelf == true)
+        {
+            O_Space[4].SetActive(true);
+        }
+        if (X_Skillcontrol[5].activeSelf == true)
+        {
+            O_Space[5].SetActive(true);
+        }
+        if (X_Skillcontrol[6].activeSelf == true)
+        {
+            O_Space[6].SetActive(true);
+        }
+        if (X_Skillcontrol[7].activeSelf == true)
+        {
+            O_Space[7].SetActive(true);
+        }
+        if (X_Skillcontrol[8].activeSelf == true)
+        {
+            O_Space[8].SetActive(true);
+        }
+        if (X_Skillcontrol[9].activeSelf == true)
+        {
+            O_Space[9].SetActive(true);
+        }
+        if (X_Skillcontrol[10].activeSelf == true)
+        {
+            O_Space[10].SetActive(true);
+        }
+        if (X_Skillcontrol[11].activeSelf == true)
+        {
+            O_Space[11].SetActive(true);
+        }
+        if (X_Skillcontrol[12].activeSelf == true)
+        {
+            O_Space[12].SetActive(true);
+        }
+        if (X_Skillcontrol[13].activeSelf == true)
+        {
+            O_Space[13].SetActive(true);
+        }
+        if (X_Skillcontrol[14].activeSelf == true)
+        {
+            O_Space[14].SetActive(true);
+        }
+        if (X_Skillcontrol[15].activeSelf == true)
+        {
+            O_Space[15].SetActive(true);
+        }
+        if (X_Skillcontrol[16].activeSelf == true)
+        {
+            O_Space[16].SetActive(true);
+        }
+        if (X_Skillcontrol[17].activeSelf == true)
+        {
+            O_Space[17].SetActive(true);
+        }
+        if (X_Skillcontrol[18].activeSelf == true)
+        {
+            O_Space[18].SetActive(true);
+        }
+        if (X_Skillcontrol[19].activeSelf == true)
+        {
+            O_Space[19].SetActive(true);
+        }
+        if (X_Skillcontrol[20].activeSelf == true)
+        {
+            O_Space[20].SetActive(true);
+        }
+        if (X_Skillcontrol[21].activeSelf == true)
+        {
+            O_Space[21].SetActive(true);
+        }
+        if (X_Skillcontrol[22].activeSelf == true)
+        {
+            O_Space[22].SetActive(true);
+        }
+        if (X_Skillcontrol[23].activeSelf == true)
+        {
+            O_Space[23].SetActive(true);
+        }
+        if (X_Skillcontrol[24].activeSelf == true)
+        {
+            O_Space[24].SetActive(true);
+        }
+    }
 
     public void Wincheck()
     {

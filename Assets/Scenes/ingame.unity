@@ -297,8 +297,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 732677292}
@@ -1035,8 +1037,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 884828145}
@@ -1294,8 +1298,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 882381180}
@@ -1477,8 +1483,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1660389198}
@@ -1660,8 +1668,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1387561284}
@@ -1725,8 +1735,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1450108289}
@@ -1872,8 +1884,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 454282959}
@@ -2057,8 +2071,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 877935076}
@@ -2204,8 +2220,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 383528168}
@@ -2422,58 +2440,10 @@ MonoBehaviour:
   - {fileID: 1869837673}
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace:
-  - {fileID: 1327941799}
-  - {fileID: 1017751207}
-  - {fileID: 2079508739}
-  - {fileID: 1688503887}
-  - {fileID: 1943016832}
-  - {fileID: 226053286}
-  - {fileID: 1671404242}
-  - {fileID: 441558603}
-  - {fileID: 590065558}
-  - {fileID: 1037724229}
-  - {fileID: 1471529035}
-  - {fileID: 439643878}
-  - {fileID: 843421013}
-  - {fileID: 351264077}
-  - {fileID: 1220583834}
-  - {fileID: 1447025887}
-  - {fileID: 1350491715}
-  - {fileID: 1980059337}
-  - {fileID: 391198228}
-  - {fileID: 1799208780}
-  - {fileID: 243600137}
-  - {fileID: 894083048}
-  - {fileID: 1995525163}
-  - {fileID: 299798637}
-  - {fileID: 398820926}
-  Oskill_Affectspace:
-  - {fileID: 278923646}
-  - {fileID: 1979368074}
-  - {fileID: 798497045}
-  - {fileID: 231662519}
-  - {fileID: 305066545}
-  - {fileID: 529049114}
-  - {fileID: 1737015172}
-  - {fileID: 1876821055}
-  - {fileID: 1598708790}
-  - {fileID: 1595211138}
-  - {fileID: 1965013048}
-  - {fileID: 1985531799}
-  - {fileID: 1601954978}
-  - {fileID: 1035137651}
-  - {fileID: 1961817433}
-  - {fileID: 1683602016}
-  - {fileID: 213762765}
-  - {fileID: 1874117675}
-  - {fileID: 973427798}
-  - {fileID: 1558617439}
-  - {fileID: 1218800113}
-  - {fileID: 637403982}
-  - {fileID: 406832962}
-  - {fileID: 696760832}
-  - {fileID: 1299449928}
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 0}
@@ -2716,8 +2686,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 147207261}
@@ -2857,8 +2829,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1394383937}
@@ -3122,8 +3096,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 2083225150}
@@ -3342,8 +3318,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 884828145}
@@ -3565,8 +3543,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 850765969}
@@ -3826,8 +3806,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 733607611}
@@ -4201,8 +4183,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 147207261}
@@ -4348,8 +4332,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 74206002}
@@ -4571,8 +4557,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 2083225150}
@@ -4718,8 +4706,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1394383937}
@@ -5053,8 +5043,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1660389198}
@@ -5200,8 +5192,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1387561284}
@@ -5819,8 +5813,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 454282959}
@@ -6194,8 +6190,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 495493974}
@@ -6703,8 +6701,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 882381180}
@@ -6850,8 +6850,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 884828145}
@@ -7115,8 +7117,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1889599642}
@@ -7298,8 +7302,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 877935076}
@@ -7714,7 +7720,7 @@ MonoBehaviour:
   - {fileID: 1869837673}
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace:
+  X_Space:
   - {fileID: 1327941799}
   - {fileID: 1017751207}
   - {fileID: 2079508739}
@@ -7740,7 +7746,7 @@ MonoBehaviour:
   - {fileID: 1995525163}
   - {fileID: 299798637}
   - {fileID: 398820926}
-  Oskill_Affectspace:
+  O_Space:
   - {fileID: 278923646}
   - {fileID: 1979368074}
   - {fileID: 798497045}
@@ -7766,6 +7772,58 @@ MonoBehaviour:
   - {fileID: 406832962}
   - {fileID: 696760832}
   - {fileID: 1299449928}
+  X_Skillcontrol:
+  - {fileID: 1394383937}
+  - {fileID: 1889599642}
+  - {fileID: 1555083315}
+  - {fileID: 877935076}
+  - {fileID: 850765969}
+  - {fileID: 454282959}
+  - {fileID: 379501060}
+  - {fileID: 1387561284}
+  - {fileID: 495493974}
+  - {fileID: 732677292}
+  - {fileID: 1517023015}
+  - {fileID: 1660389198}
+  - {fileID: 270609529}
+  - {fileID: 733607611}
+  - {fileID: 503846246}
+  - {fileID: 1155522822}
+  - {fileID: 1450108289}
+  - {fileID: 1110615724}
+  - {fileID: 147207261}
+  - {fileID: 1954691366}
+  - {fileID: 383528168}
+  - {fileID: 882381180}
+  - {fileID: 2083225150}
+  - {fileID: 884828145}
+  - {fileID: 74206002}
+  O_Skillcontrol:
+  - {fileID: 293965597}
+  - {fileID: 890174118}
+  - {fileID: 933121675}
+  - {fileID: 1068146150}
+  - {fileID: 763682337}
+  - {fileID: 444638669}
+  - {fileID: 952576696}
+  - {fileID: 619790532}
+  - {fileID: 1996502632}
+  - {fileID: 505564052}
+  - {fileID: 1195262044}
+  - {fileID: 578287603}
+  - {fileID: 1881541831}
+  - {fileID: 577257955}
+  - {fileID: 352557950}
+  - {fileID: 39922740}
+  - {fileID: 1435659595}
+  - {fileID: 424887701}
+  - {fileID: 1068274377}
+  - {fileID: 1534956573}
+  - {fileID: 6678178}
+  - {fileID: 88239539}
+  - {fileID: 827328352}
+  - {fileID: 347808189}
+  - {fileID: 435628601}
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 605337958}
   X: {fileID: 0}
@@ -7890,8 +7948,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1555083315}
@@ -8113,8 +8173,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 270609529}
@@ -8716,8 +8778,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 882381180}
@@ -8981,8 +9045,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1954691366}
@@ -9316,8 +9382,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 850765969}
@@ -9499,8 +9567,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 270609529}
@@ -9679,8 +9749,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 147207261}
@@ -9944,8 +10016,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 503846246}
@@ -10009,8 +10083,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1889599642}
@@ -10156,8 +10232,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 733607611}
@@ -10303,8 +10381,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 732677292}
@@ -11176,8 +11256,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 383528168}
@@ -11323,8 +11405,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 503846246}
@@ -11588,8 +11672,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 74206002}
@@ -11771,8 +11857,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1555083315}
@@ -11954,8 +12042,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 495493974}
@@ -11974,6 +12064,8 @@ GameObject:
   - component: {fileID: 1288924387}
   - component: {fileID: 1288924389}
   - component: {fileID: 1288924388}
+  - component: {fileID: 1288924391}
+  - component: {fileID: 1288924390}
   m_Layer: 0
   m_Name: system
   m_TagString: Untagged
@@ -11989,13 +12081,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288924386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1083616839}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1288924388
 MonoBehaviour:
@@ -12025,8 +12117,110 @@ MonoBehaviour:
   - {fileID: 1714905652}
   - {fileID: 1506779357}
   - {fileID: 900716062}
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space:
+  - {fileID: 1327941799}
+  - {fileID: 1017751207}
+  - {fileID: 2079508739}
+  - {fileID: 1688503887}
+  - {fileID: 1943016832}
+  - {fileID: 226053286}
+  - {fileID: 1671404242}
+  - {fileID: 441558603}
+  - {fileID: 590065558}
+  - {fileID: 1037724229}
+  - {fileID: 1471529035}
+  - {fileID: 439643878}
+  - {fileID: 843421013}
+  - {fileID: 351264077}
+  - {fileID: 1220583834}
+  - {fileID: 1447025887}
+  - {fileID: 1350491715}
+  - {fileID: 1980059337}
+  - {fileID: 391198228}
+  - {fileID: 1799208780}
+  - {fileID: 243600137}
+  - {fileID: 894083048}
+  - {fileID: 1995525163}
+  - {fileID: 299798637}
+  - {fileID: 398820926}
+  O_Space:
+  - {fileID: 278923646}
+  - {fileID: 1979368074}
+  - {fileID: 798497045}
+  - {fileID: 231662519}
+  - {fileID: 305066545}
+  - {fileID: 529049114}
+  - {fileID: 1737015172}
+  - {fileID: 1876821055}
+  - {fileID: 1598708790}
+  - {fileID: 1595211138}
+  - {fileID: 1965013048}
+  - {fileID: 1985531799}
+  - {fileID: 1601954978}
+  - {fileID: 1035137651}
+  - {fileID: 1961817433}
+  - {fileID: 1683602016}
+  - {fileID: 213762765}
+  - {fileID: 1874117675}
+  - {fileID: 973427798}
+  - {fileID: 1558617439}
+  - {fileID: 1218800113}
+  - {fileID: 637403982}
+  - {fileID: 406832962}
+  - {fileID: 696760832}
+  - {fileID: 1299449928}
+  X_Skillcontrol:
+  - {fileID: 1394383937}
+  - {fileID: 1889599642}
+  - {fileID: 1555083315}
+  - {fileID: 877935076}
+  - {fileID: 850765969}
+  - {fileID: 454282959}
+  - {fileID: 379501060}
+  - {fileID: 1387561284}
+  - {fileID: 495493974}
+  - {fileID: 732677292}
+  - {fileID: 1517023015}
+  - {fileID: 1660389198}
+  - {fileID: 270609529}
+  - {fileID: 733607611}
+  - {fileID: 503846246}
+  - {fileID: 1155522822}
+  - {fileID: 1450108289}
+  - {fileID: 1110615724}
+  - {fileID: 147207261}
+  - {fileID: 1954691366}
+  - {fileID: 383528168}
+  - {fileID: 882381180}
+  - {fileID: 2083225150}
+  - {fileID: 884828145}
+  - {fileID: 74206002}
+  O_Skillcontrol:
+  - {fileID: 293965597}
+  - {fileID: 890174118}
+  - {fileID: 933121675}
+  - {fileID: 1068146150}
+  - {fileID: 763682337}
+  - {fileID: 444638669}
+  - {fileID: 952576696}
+  - {fileID: 619790532}
+  - {fileID: 1996502632}
+  - {fileID: 505564052}
+  - {fileID: 1195262044}
+  - {fileID: 578287603}
+  - {fileID: 1881541831}
+  - {fileID: 577257955}
+  - {fileID: 352557950}
+  - {fileID: 39922740}
+  - {fileID: 1435659595}
+  - {fileID: 424887701}
+  - {fileID: 1068274377}
+  - {fileID: 1534956573}
+  - {fileID: 6678178}
+  - {fileID: 88239539}
+  - {fileID: 827328352}
+  - {fileID: 347808189}
+  - {fileID: 435628601}
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 605337958}
   X: {fileID: 0}
@@ -12050,8 +12244,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 0}
   X: {fileID: 0}
@@ -12063,6 +12259,41 @@ MonoBehaviour:
   x_potintCount: {fileID: 1083616837}
   o_potintCount: {fileID: 1083616837}
   t_potintCount: {fileID: 1083616837}
+--- !u!114 &1288924390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288924386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1288924391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288924386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &1299449928
 GameObject:
   m_ObjectHideFlags: 0
@@ -12119,8 +12350,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 74206002}
@@ -12304,8 +12537,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1394383937}
@@ -12568,8 +12803,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1450108289}
@@ -12981,8 +13218,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1155522822}
@@ -13242,8 +13481,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1517023015}
@@ -13507,8 +13748,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1517023015}
@@ -13994,8 +14237,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 733607611}
@@ -14135,8 +14380,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1954691366}
@@ -14358,8 +14605,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 732677292}
@@ -14505,8 +14754,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 495493974}
@@ -14770,8 +15021,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1155522822}
@@ -14835,8 +15088,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 270609529}
@@ -15100,8 +15355,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 379501060}
@@ -15567,8 +15824,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 379501060}
@@ -15752,8 +16011,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1155522822}
@@ -15899,8 +16160,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 877935076}
@@ -16160,8 +16423,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 379501060}
@@ -16368,8 +16633,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1954691366}
@@ -16671,8 +16938,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 383528168}
@@ -16812,8 +17081,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1110615724}
@@ -16959,8 +17230,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1387561284}
@@ -17202,74 +17475,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889599642}
   m_CullTransparentMesh: 1
---- !u!1 &1912956990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1912956993}
-  - component: {fileID: 1912956992}
-  - component: {fileID: 1912956991}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1912956991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912956990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &1912956992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912956990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1912956993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912956990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1943016832
 GameObject:
   m_ObjectHideFlags: 0
@@ -17326,8 +17531,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 850765969}
@@ -17587,8 +17794,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 503846246}
@@ -17734,8 +17943,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1517023015}
@@ -17919,8 +18130,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1889599642}
@@ -18066,8 +18279,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1110615724}
@@ -18213,8 +18428,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1660389198}
@@ -18360,8 +18577,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 2083225150}
@@ -18701,8 +18920,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 454282959}
@@ -18842,8 +19063,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1555083315}
@@ -19259,8 +19482,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1450108289}
@@ -19442,8 +19667,10 @@ MonoBehaviour:
   O_skill: []
   X_skillUsed: []
   O_skillUsed: []
-  Xskill_Affectspace: []
-  Oskill_Affectspace: []
+  X_Space: []
+  O_Space: []
+  X_Skillcontrol: []
+  O_Skillcontrol: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
   X: {fileID: 1110615724}
