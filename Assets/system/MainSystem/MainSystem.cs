@@ -18,8 +18,11 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject[] O_skill;
     [SerializeField] public GameObject[] X_skillUsed;
     [SerializeField] public GameObject[] O_skillUsed;
+    [SerializeField] public GameObject[] Xskill_Affectspace;
+    [SerializeField] public GameObject[] Oskill_Affectspace;
     [SerializeField] public GameObject X_Usebutton;
     [SerializeField] public GameObject O_Usebutton;
+
 
     [SerializeField] public static int X_Turn;
     [SerializeField] public static int O_Turn;
@@ -41,7 +44,7 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Win check")]
     [SerializeField] public GameObject[] WX;
     [SerializeField] public GameObject[] WO;
-    [SerializeField] public GameObject[] Tie;
+    
 
 
 
@@ -201,6 +204,8 @@ public class MainSystem : MonoBehaviour
             O_skillUsed[2].SetActive(true);
         }
 
+        /*------------------------------ skillUsedbutton ---------------------*/
+
 
         if (X_skill[0].activeSelf == true || X_skill[1].activeSelf == true || X_skill[2].activeSelf == true  )
         {
@@ -229,13 +234,25 @@ public class MainSystem : MonoBehaviour
     {
         X_skillPoint--;
         Xskill_Count--;
-
+        //X_SkillAffectspace();
+       
     }
     public void OSkill_Use()
     {
         O_skillPoint--;
         Oskill_Count--;
+       // O_SkillAffectspace();
+
+
     }
+   /* public void X_SkillAffectspace()
+    {
+        
+    }
+    public void O_SkillAffectspace()
+    {
+        
+    }*/
 
     public void Wincheck()
     {
