@@ -7,7 +7,7 @@ public class RunCode : MainSystem
     private void FixedUpdate()
     {
         Skill_Active();
-        
-
+        Turn_Active();
+        Debug.Log(count_Number);
     }
 }

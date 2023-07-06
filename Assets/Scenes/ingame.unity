@@ -317,6 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -329,6 +332,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
@@ -462,6 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -474,6 +479,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 21874528}
@@ -522,19 +528,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 21874532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 21874531}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &21874532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,6 +619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -637,6 +632,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 25258362}
@@ -685,19 +681,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 25258366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 25258365}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &25258366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,6 +895,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39922740}
   m_CullTransparentMesh: 1
+--- !u!1 &41494110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41494111}
+  - component: {fileID: 41494114}
+  - component: {fileID: 41494113}
+  - component: {fileID: 41494112}
+  m_Layer: 5
+  m_Name: play button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &41494111
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41494110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 558888321}
+  m_Father: {fileID: 984749590}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -86.15842}
+  m_SizeDelta: {x: 328.977, y: 61.6832}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &41494112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41494110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 41494113}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1288924388}
+        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
+        m_MethodName: Play_Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &41494113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41494110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &41494114
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41494110}
+  m_CullTransparentMesh: 1
 --- !u!1 &43423484
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,6 +1081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -975,6 +1094,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 43423484}
@@ -1023,19 +1143,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 43423488}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 43423487}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &43423488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,6 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -1138,6 +1247,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 46560742}
@@ -1186,19 +1296,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 46560746}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 46560745}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &46560746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1289,6 +1387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -1301,6 +1400,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 63377588}
@@ -1349,19 +1449,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 63377592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 63377591}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &63377592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1680,6 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -1692,6 +1781,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 86922748}
@@ -1740,19 +1830,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 86922752}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 86922751}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &86922752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1919,6 +1997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -1931,6 +2010,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 90396594}
@@ -1979,19 +2059,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 90396598}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 90396597}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &90396598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2224,6 +2292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -2236,6 +2307,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
@@ -2293,6 +2365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -2305,6 +2378,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 100322655}
@@ -2353,19 +2427,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 100322659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 100322658}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &100322659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2456,6 +2518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -2468,6 +2531,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 110266505}
@@ -2516,19 +2580,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110266509}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 110266508}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &110266509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2619,6 +2671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -2631,6 +2684,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 123301499}
@@ -2679,19 +2733,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 123301503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 123301502}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &123301503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2729,6 +2771,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123301499}
+  m_CullTransparentMesh: 1
+--- !u!1 &138753449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138753450}
+  - component: {fileID: 138753452}
+  - component: {fileID: 138753451}
+  m_Layer: 5
+  m_Name: O_turn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &138753450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138753449}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1466438763}
+  m_Father: {fileID: 1114346775}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 93.00018, y: -95.60007}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &138753451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138753449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff907827c963c474da40af7470a626dc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &138753452
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138753449}
   m_CullTransparentMesh: 1
 --- !u!1 &147207261
 GameObject:
@@ -3000,6 +3119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3012,6 +3134,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
@@ -3069,6 +3192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3081,6 +3205,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 162677419}
@@ -3129,19 +3254,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162677423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 162677422}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &162677423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3232,6 +3345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3244,6 +3358,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 164289182}
@@ -3292,19 +3407,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 164289186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 164289185}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &164289186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3537,6 +3640,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3549,6 +3655,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
@@ -3748,6 +3855,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3760,6 +3870,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
@@ -3817,6 +3928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3829,6 +3941,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 186526111}
@@ -3877,19 +3990,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186526115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 186526114}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &186526115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3980,6 +4081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -3992,6 +4094,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 205794473}
@@ -4040,19 +4143,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 205794477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 205794476}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &205794477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4143,6 +4234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -4155,6 +4247,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 212034604}
@@ -4203,19 +4296,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 212034608}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 212034607}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &212034608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4306,6 +4387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -4318,6 +4402,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
@@ -4529,6 +4614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -4541,6 +4627,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 218000412}
@@ -4589,19 +4676,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 218000416}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 218000415}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &218000416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4692,6 +4767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -4704,6 +4782,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
@@ -4953,6 +5032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -4965,6 +5047,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
@@ -5176,6 +5259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -5188,6 +5274,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
@@ -5443,7 +5530,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 297245983}
-  - {fileID: 776916221}
+  - {fileID: 984749590}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5464,6 +5551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill:
   - {fileID: 2094312031}
   - {fileID: 79300019}
@@ -5482,6 +5570,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -5539,6 +5628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -5551,6 +5641,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 267270082}
@@ -5599,19 +5690,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 267270086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 267270085}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &267270086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5905,6 +5984,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -5917,6 +5999,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
@@ -6050,6 +6133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -6062,6 +6148,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
@@ -6415,6 +6502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -6427,6 +6517,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
@@ -6520,7 +6611,7 @@ GameObject:
   - component: {fileID: 297245985}
   - component: {fileID: 297245984}
   m_Layer: 5
-  m_Name: Grid
+  m_Name: ingame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6541,6 +6632,7 @@ RectTransform:
   - {fileID: 781071700}
   - {fileID: 37539861}
   - {fileID: 1043003044}
+  - {fileID: 776916221}
   m_Father: {fileID: 257285717}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6639,6 +6731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -6651,6 +6746,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
@@ -6999,6 +7095,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -7011,6 +7110,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
@@ -7222,6 +7322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -7234,6 +7335,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 309283130}
@@ -7282,19 +7384,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 309283134}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 309283133}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &309283134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7332,6 +7422,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309283130}
+  m_CullTransparentMesh: 1
+--- !u!1 &333671527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 333671528}
+  - component: {fileID: 333671530}
+  - component: {fileID: 333671529}
+  m_Layer: 5
+  m_Name: XImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &333671528
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333671527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 616568874}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -180, y: 136}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &333671529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333671527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4148ced29b5e76b419a98801078878d7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &333671530
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333671527}
   m_CullTransparentMesh: 1
 --- !u!1 &333792095
 GameObject:
@@ -7499,6 +7665,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -7511,6 +7680,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
@@ -7722,6 +7892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -7734,6 +7905,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 352223346}
@@ -7782,19 +7954,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 352223350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 352223349}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &352223350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7961,6 +8121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -7973,6 +8134,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 356736389}
@@ -8021,19 +8183,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 356736393}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 356736392}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &356736393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8276,6 +8426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -8288,6 +8441,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
@@ -8499,6 +8653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -8511,6 +8668,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
@@ -8722,6 +8880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -8734,6 +8893,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 396837647}
@@ -8782,19 +8942,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 396837651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 396837650}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &396837651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8885,6 +9033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -8897,6 +9048,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
@@ -9184,6 +9336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -9196,6 +9351,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
@@ -9407,6 +9563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -9419,6 +9576,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 411881678}
@@ -9467,19 +9625,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 411881682}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 411881681}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &411881682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9570,6 +9716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -9582,6 +9731,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
@@ -9857,6 +10007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -9869,6 +10020,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 429087111}
@@ -9917,19 +10069,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 429087115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 429087114}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &429087115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10096,6 +10236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -10108,6 +10251,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
@@ -10319,6 +10463,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -10331,6 +10478,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
@@ -10694,6 +10842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -10706,6 +10855,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 493511965}
@@ -10754,19 +10904,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 493511969}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 493511968}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &493511969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11085,6 +11223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -11097,6 +11236,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 507791984}
@@ -11145,19 +11285,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 507791988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 507791987}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &507791988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11248,6 +11376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -11260,6 +11389,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 509602479}
@@ -11308,19 +11438,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 509602483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 509602482}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &509602483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11451,6 +11569,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524023284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524023285}
+  - component: {fileID: 524023287}
+  - component: {fileID: 524023286}
+  m_Layer: 5
+  m_Name: OImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &524023285
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524023284}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 616568874}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 180, y: 135.99998}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &524023286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524023284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ff907827c963c474da40af7470a626dc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &524023287
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524023284}
+  m_CullTransparentMesh: 1
 --- !u!1 &529049114
 GameObject:
   m_ObjectHideFlags: 0
@@ -11503,6 +11697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -11515,6 +11712,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
@@ -11712,6 +11910,141 @@ RectTransform:
   m_AnchoredPosition: {x: -211, y: 174}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &558888320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558888321}
+  - component: {fileID: 558888323}
+  - component: {fileID: 558888322}
+  m_Layer: 5
+  m_Name: 'playText '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &558888321
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558888320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 41494111}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &558888322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558888320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Play
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &558888323
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558888320}
+  m_CullTransparentMesh: 1
 --- !u!1 &562148331
 GameObject:
   m_ObjectHideFlags: 0
@@ -11954,6 +12287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -11966,6 +12302,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
@@ -12177,6 +12514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -12189,6 +12527,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 593412683}
@@ -12237,19 +12576,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 593412687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 593412686}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &593412687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12536,6 +12863,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &616568873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 616568874}
+  m_Layer: 5
+  m_Name: Header
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &616568874
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616568873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 333671528}
+  - {fileID: 524023285}
+  m_Father: {fileID: 984749590}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &619790532
 GameObject:
   m_ObjectHideFlags: 0
@@ -12702,6 +13067,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -12714,6 +13082,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
@@ -12925,6 +13294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -12937,6 +13307,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 650624954}
@@ -12985,19 +13356,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 650624958}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 650624957}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &650624958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13088,6 +13447,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -13100,6 +13462,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
@@ -13453,6 +13816,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -13465,6 +13831,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
@@ -13522,6 +13889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -13534,6 +13902,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 723826734}
@@ -13582,19 +13951,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723826738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 723826737}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &723826738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13827,6 +14184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -13839,6 +14199,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
@@ -14210,7 +14571,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776916220}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14223,7 +14584,7 @@ RectTransform:
   - {fileID: 2069655517}
   - {fileID: 1655161823}
   - {fileID: 605337959}
-  m_Father: {fileID: 257285717}
+  m_Father: {fileID: 297245983}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14243,6 +14604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill:
   - {fileID: 2094312031}
   - {fileID: 79300019}
@@ -14361,6 +14723,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 605337958}
+  canvas_Ative: []
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 1083616836}
@@ -14479,6 +14842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -14491,6 +14855,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 784957918}
@@ -14539,19 +14904,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 784957922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 784957921}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &784957922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14642,6 +14995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -14654,6 +15010,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
@@ -14865,6 +15222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -14877,6 +15235,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 812000988}
@@ -14925,19 +15284,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 812000992}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 812000991}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &812000992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15104,6 +15451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -15116,6 +15464,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 838083420}
@@ -15164,19 +15513,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 838083424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 838083423}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &838083424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15267,6 +15604,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -15279,6 +15619,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
@@ -15946,6 +16287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -15958,6 +16302,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
@@ -16311,6 +16656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -16323,6 +16671,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
@@ -16674,6 +17023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -16686,6 +17038,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
@@ -16885,6 +17238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -16897,6 +17253,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
@@ -17030,6 +17387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -17042,6 +17400,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 953748910}
@@ -17090,19 +17449,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 953748914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 953748913}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &953748914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17232,6 +17579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -17244,6 +17592,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 972149767}
@@ -17292,19 +17641,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 972149771}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 972149770}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &972149771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17395,6 +17732,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -17407,6 +17747,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
@@ -17566,6 +17907,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973427798}
   m_CullTransparentMesh: 1
+--- !u!1 &984749589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984749590}
+  - component: {fileID: 984749592}
+  - component: {fileID: 984749591}
+  m_Layer: 5
+  m_Name: pre_game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &984749590
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984749589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 616568874}
+  - {fileID: 41494111}
+  m_Father: {fileID: 257285717}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 806}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &984749591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984749589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9056604, g: 0.6700312, b: 0.28622285, a: 0.78039217}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &984749592
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984749589}
+  m_CullTransparentMesh: 1
 --- !u!1 &984887858
 GameObject:
   m_ObjectHideFlags: 0
@@ -17618,6 +18037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -17630,6 +18050,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 984887858}
@@ -17678,19 +18099,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 984887862}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 984887861}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &984887862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17923,6 +18332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -17935,6 +18347,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
@@ -17992,6 +18405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -18004,6 +18420,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
@@ -18215,6 +18632,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -18227,6 +18647,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
@@ -18438,6 +18859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -18450,6 +18874,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
@@ -18638,7 +19063,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1114346775}
   m_Father: {fileID: 297245983}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19107,6 +19533,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110615724}
   m_CullTransparentMesh: 1
+--- !u!1 &1114346774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114346775}
+  - component: {fileID: 1114346777}
+  - component: {fileID: 1114346776}
+  m_Layer: 5
+  m_Name: Header
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1114346775
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114346774}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2090480701}
+  - {fileID: 138753450}
+  m_Father: {fileID: 1043003044}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1452, y: 5.6000977}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1114346776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114346774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Player Turn
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -21.192482, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1114346777
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114346774}
+  m_CullTransparentMesh: 1
 --- !u!1 &1155522822
 GameObject:
   m_ObjectHideFlags: 0
@@ -19387,6 +19950,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -19399,6 +19965,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
@@ -19610,6 +20177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -19622,6 +20192,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
@@ -19975,6 +20546,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -19987,6 +20561,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
@@ -20186,6 +20761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -20198,6 +20776,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
@@ -20397,6 +20976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -20409,6 +20991,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
@@ -20466,6 +21049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -20478,6 +21062,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 1255210975}
@@ -20526,19 +21111,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1255210979}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1255210978}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1255210979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20605,7 +21178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288924386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5, z: -10}
+  m_LocalPosition: {x: 0, y: 5.0000305, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20625,6 +21198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3daad19246dd7b9428ba90ee25174cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill:
   - {fileID: 2094312031}
   - {fileID: 79300019}
@@ -20799,6 +21375,9 @@ MonoBehaviour:
   - {fileID: 2121064087}
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 605337958}
+  canvas_Ative:
+  - {fileID: 984749589}
+  - {fileID: 297245982}
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -20816,6 +21395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4cf7f21b15e984d877b99317014fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -20828,6 +21408,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 1655161822}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
@@ -20924,6 +21505,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -20936,6 +21520,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
@@ -21147,6 +21732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -21159,6 +21745,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1305202524}
@@ -21207,19 +21794,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1305202528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1305202527}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1305202528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21348,6 +21923,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -21360,6 +21938,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
@@ -21688,6 +22267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -21700,6 +22282,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
@@ -22025,6 +22608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -22037,6 +22621,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1387881897}
@@ -22085,19 +22670,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1387881901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1387881900}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1387881901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22264,6 +22837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -22276,6 +22850,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 1415649097}
@@ -22324,19 +22899,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1415649101}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1415649100}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1415649101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22503,6 +23066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -22515,6 +23081,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
@@ -22788,6 +23355,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450108289}
   m_CullTransparentMesh: 1
+--- !u!1 &1466438762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466438763}
+  - component: {fileID: 1466438765}
+  - component: {fileID: 1466438764}
+  m_Layer: 5
+  m_Name: OActive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1466438763
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466438762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 138753450}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1466438764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466438762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.37254903, g: 0.7529412, b: 0.4392157, a: 0.34901962}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1466438765
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466438762}
+  m_CullTransparentMesh: 1
 --- !u!1 &1471529035
 GameObject:
   m_ObjectHideFlags: 0
@@ -22840,6 +23483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -22852,6 +23498,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
@@ -23205,6 +23852,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -23217,6 +23867,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
@@ -23720,6 +24371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -23732,6 +24386,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
@@ -23865,6 +24520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -23877,6 +24535,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
@@ -24164,6 +24823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -24176,6 +24838,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
@@ -24529,6 +25192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -24541,6 +25207,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
@@ -24598,6 +25265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -24610,6 +25280,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
@@ -24963,6 +25634,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -24975,6 +25649,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
@@ -25032,6 +25707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -25044,6 +25720,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 1626013018}
@@ -25092,19 +25769,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1626013022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1626013021}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1626013022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25430,6 +26095,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655161822}
   m_CullTransparentMesh: 1
+--- !u!1 &1657265751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657265752}
+  - component: {fileID: 1657265754}
+  - component: {fileID: 1657265753}
+  m_Layer: 5
+  m_Name: XActive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1657265752
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657265751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2090480701}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1657265753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657265751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3737985, g: 0.754717, b: 0.4402675, a: 0.34901962}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1657265754
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657265751}
+  m_CullTransparentMesh: 1
 --- !u!1 &1660389198
 GameObject:
   m_ObjectHideFlags: 0
@@ -25597,6 +26338,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -25609,6 +26353,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
@@ -25858,6 +26603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -25870,6 +26618,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
@@ -26081,6 +26830,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -26093,6 +26845,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
@@ -26418,6 +27171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -26430,6 +27186,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
@@ -26641,6 +27398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -26653,6 +27411,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 1752742143}
@@ -26701,19 +27460,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752742147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1752742146}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1752742147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26865,6 +27612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -26877,6 +27627,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
@@ -27088,6 +27839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -27100,6 +27852,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1805949718}
@@ -27148,19 +27901,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1805949722}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1805949721}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1805949722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27431,6 +28172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -27443,6 +28187,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
@@ -27576,6 +28321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -27588,6 +28336,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
@@ -27799,6 +28548,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -27811,6 +28563,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
@@ -28174,6 +28927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -28186,6 +28940,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 1910368287}
@@ -28234,19 +28989,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1910368291}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1910368290}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1910368291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28337,6 +29080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -28349,6 +29095,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
@@ -28674,6 +29421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -28686,6 +29436,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
@@ -28897,6 +29648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -28909,6 +29663,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
@@ -29158,6 +29913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -29170,6 +29926,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 1974492953}
@@ -29218,19 +29975,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974492957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1974492956}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1974492957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29321,6 +30066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -29333,6 +30081,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
@@ -29544,6 +30293,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -29556,6 +30308,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
@@ -29767,6 +30520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -29779,6 +30535,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
@@ -29990,6 +30747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -30002,6 +30760,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 1987787583}
@@ -30050,19 +30809,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1987787587}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1987787586}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1987787587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30153,6 +30900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -30165,6 +30915,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
@@ -30452,6 +31203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -30464,6 +31216,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 2010738608}
@@ -30512,19 +31265,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010738612}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2010738611}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2010738612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30757,6 +31498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -30769,6 +31513,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
@@ -30925,6 +31670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -30937,6 +31683,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 2077945655}
@@ -30985,19 +31732,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2077945659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2077945658}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2077945659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31126,6 +31861,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 138753449}
+  - {fileID: 2090480700}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -31138,6 +31876,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
@@ -31372,6 +32111,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083225150}
+  m_CullTransparentMesh: 1
+--- !u!1 &2090480700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090480701}
+  - component: {fileID: 2090480703}
+  - component: {fileID: 2090480702}
+  m_Layer: 5
+  m_Name: X_turn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2090480701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090480700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1657265752}
+  m_Father: {fileID: 1114346775}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -68.99991, y: -95.60006}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2090480702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090480700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4148ced29b5e76b419a98801078878d7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2090480703
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090480700}
   m_CullTransparentMesh: 1
 --- !u!1 &2094312031
 GameObject:
@@ -31643,6 +32459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -31655,6 +32474,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
@@ -31712,6 +32532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -31724,6 +32545,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2113375186}
@@ -31772,19 +32594,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2113375190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2113375189}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2113375190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31875,6 +32685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -31887,6 +32698,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 2121064087}
@@ -31935,19 +32747,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2121064091}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: OSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2121064090}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2121064091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32180,6 +32980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active:
+  - {fileID: 1466438762}
+  - {fileID: 1657265751}
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -32192,6 +32995,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
@@ -32249,6 +33053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae406435bb67c0479e14fbc75e6663d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn_Active: []
   X_skill: []
   O_skill: []
   X_skillUsed: []
@@ -32261,6 +33066,7 @@ MonoBehaviour:
   O_cooldown_Area: []
   X_Usebutton: {fileID: 0}
   O_Usebutton: {fileID: 0}
+  canvas_Ative: []
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 2133584842}
@@ -32309,19 +33115,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2133584846}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288924388}
-        m_TargetAssemblyTypeName: MainSystem, Assembly-CSharp
-        m_MethodName: XSkill_CooldownArea
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2133584845}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2133584846
 MonoBehaviour:
   m_ObjectHideFlags: 0

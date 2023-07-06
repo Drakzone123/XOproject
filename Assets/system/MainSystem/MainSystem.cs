@@ -9,12 +9,17 @@ using UnityEngine.UI;
 public class MainSystem : MonoBehaviour
 {
     [Header("variable for turncheck , value")]
+    [SerializeField] public GameObject[] turn_Active;
     [SerializeField] public static int turn_Check = 1;
+    [SerializeField] public static int skill_Turn = 1;
     [SerializeField] public static int xo_Check;
     [SerializeField] public static int count_Number;
     [SerializeField] public static int x_Point;
     [SerializeField] public static int o_Point;
     [SerializeField] public static int t_Point;
+    [SerializeField] public static int X_Turn;
+    [SerializeField] public static int O_Turn;
+
 
     [Header("variable for Skill System")]
     [SerializeField] public GameObject[] X_skill;
@@ -27,23 +32,20 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject[] O_Skillcontrol;
     [SerializeField] public GameObject[] X_cooldown_Area;
     [SerializeField] public GameObject[] O_cooldown_Area;
-
     [SerializeField] public GameObject X_Usebutton;
     [SerializeField] public GameObject O_Usebutton;
-
-    [SerializeField] public static int skill_cooldown;
-    [SerializeField] public static int X_Turn;
-    [SerializeField] public static int O_Turn;
+    [SerializeField] public static int skill_cooldown;   
     [SerializeField] public static int X_skillPoint;
     [SerializeField] public static int O_skillPoint;
     [SerializeField] public static int Xskill_Count = 3;
     [SerializeField] public static int Oskill_Count = 3;
     [SerializeField] public static int[] Xskill_CheckActive = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
-    [SerializeField] public static int[] Oskill_CheckActive = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    [SerializeField] public static int[] Oskill_CheckActive = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
 
 
-
+    [Header("variable for Button only")]
+    public GameObject[] canvas_Ative;
 
 
 
@@ -65,16 +67,18 @@ public class MainSystem : MonoBehaviour
     public void XO_Count()
     {
         count_Number++;
+
         if (count_Number % 2 != 0)
         {
-            
-            X.SetActive(true);
             X_Turn++;
+            X.SetActive(true);
+            
         }
         if (count_Number % 2 == 0)
         {
-            O.SetActive(true);
             O_Turn++;
+            O.SetActive(true);
+            
         }
         Box.SetActive(false);
         
@@ -84,21 +88,23 @@ public class MainSystem : MonoBehaviour
         if (count_Number % 2 == 0)
         {
             turn_Check++;
+            skill_Turn++;
+
         }
+       
 
         
+
     }
     public void Skill_count()
     {
-        if (X_Turn >= 3 )
+        if (skill_Turn % 3 == 0 && skill_Turn != 0)
         {
             X_skillPoint++;
-            X_Turn = 0;
-        }
-        if (O_Turn >= 3)
-        {
             O_skillPoint++;
-            O_Turn = 0;
+            skill_Turn = 0;
+            
+            
         }
         if (X_skillPoint >= Xskill_Count) X_skillPoint = Xskill_Count;
         if (O_skillPoint >= Oskill_Count) O_skillPoint = Oskill_Count;
@@ -215,12 +221,12 @@ public class MainSystem : MonoBehaviour
             O_skillUsed[2].SetActive(true);
         }
 
-        /*------------------------------ skillUsedbutton ---------------------*/
+        /*------------------------------ skill_Usingbutton ---------------------*/
 
 
-        if (X_skill[0].activeSelf == true || X_skill[1].activeSelf == true || X_skill[2].activeSelf == true  )
+        if (X_skillPoint > 0  )
         {
-            if (count_Number % 2 != 0)
+            if (count_Number % 2 == 0)
             {
                 X_Usebutton.SetActive(true);
             }
@@ -228,26 +234,53 @@ public class MainSystem : MonoBehaviour
 
         } 
 
-        if (O_skill[0].activeSelf == true || O_skill[1].activeSelf == true || O_skill[2].activeSelf == true && count_Number % 2 == 0)
+        if (O_skillPoint > 0 )
         {
-            if (count_Number % 2 == 0)
+            if (count_Number % 2 != 0)
             {
                 O_Usebutton.SetActive(true);
             }
             else { O_Usebutton.SetActive(false); }
         }
-       
 
+
+    }
+    public void Turn_Active() 
+    {
+        
+        if (count_Number % 2 != 0)
+        {
+            turn_Active[0].SetActive(true);
+            turn_Active[1].SetActive(false);
+
+        }
+        if (count_Number % 2 == 0)
+        {
+            turn_Active[1].SetActive(true);
+            turn_Active[0].SetActive(false);
+
+
+        }
+       /* if (count_Number  == 0)
+        {
+            turn_Active[0].SetActive(true);
+            turn_Active[1].SetActive(false);
+
+
+        }*/
+       
 
     }
     public void XSkill_Use()
     {
+        
         X_skillPoint--;
         Xskill_Count--;
         X_Affectskillspace();
     }
     public void OSkill_Use()
     {
+        
         O_skillPoint--;
         Oskill_Count--;
         O_Affectskillspace();
@@ -260,6 +293,7 @@ public class MainSystem : MonoBehaviour
         if (X.activeSelf == true)
         {
             X.SetActive(false);
+            
         }
         if (O.activeSelf == true)
         {
@@ -268,11 +302,12 @@ public class MainSystem : MonoBehaviour
         
         if (count_Number % 2 != 0)
         {
-
+            count_Number++;
             X_Turn++;
         }
         if (count_Number % 2 == 0)
-        { 
+        {
+            count_Number++;
             O_Turn++;
         }
         Box.SetActive(true);
@@ -832,7 +867,11 @@ public class MainSystem : MonoBehaviour
         }
 
     }
-    
+    public void Play_Button()
+    {
+        canvas_Ative[0].SetActive(false);
+        canvas_Ative[1].SetActive(true);
+    }
     public void Wincheck()
     {
        //updating for 5*5 soon
