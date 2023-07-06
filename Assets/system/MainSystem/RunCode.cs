@@ -8,6 +8,5 @@ public class RunCode : MainSystem
     {
         Skill_Active();
         Turn_Active();
-        Debug.Log(count_Number);
     }
 }

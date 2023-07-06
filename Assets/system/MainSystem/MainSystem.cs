@@ -34,6 +34,8 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject[] O_cooldown_Area;
     [SerializeField] public GameObject X_Usebutton;
     [SerializeField] public GameObject O_Usebutton;
+    [SerializeField] public GameObject X_Canclebutton;
+    [SerializeField] public GameObject O_Canclebutton;
     [SerializeField] public static int skill_cooldown;   
     [SerializeField] public static int X_skillPoint;
     [SerializeField] public static int O_skillPoint;
@@ -261,13 +263,7 @@ public class MainSystem : MonoBehaviour
 
 
         }
-       /* if (count_Number  == 0)
-        {
-            turn_Active[0].SetActive(true);
-            turn_Active[1].SetActive(false);
-
-
-        }*/
+       
        
 
     }
@@ -277,19 +273,46 @@ public class MainSystem : MonoBehaviour
         X_skillPoint--;
         Xskill_Count--;
         X_Affectskillspace();
+        X_Usebutton.SetActive(false);
+        X_Canclebutton.SetActive(true);    
+        
     }
     public void OSkill_Use()
     {
         
         O_skillPoint--;
         Oskill_Count--;
+        O_Usebutton.SetActive(false);
+        O_Canclebutton.SetActive(true);
         O_Affectskillspace();
         
 
     }
+    public void XSkill_Cancle()
+    {
+        X_skillPoint++;
+        Xskill_Count++;
+        for (int X_AcspaceNum = 0; X_AcspaceNum < 25; X_AcspaceNum++)
+        {
+            X_Space[X_AcspaceNum].SetActive(false);
+        }
+        X_Usebutton.SetActive(true);
+        X_Canclebutton.SetActive(false);
+    }
+    public void OSkill_Cancle()
+    {
+        O_skillPoint++;
+        Oskill_Count++;
+        for (int O_AcspaceNum = 0; O_AcspaceNum < 25; O_AcspaceNum++)
+        {
+            O_Space[O_AcspaceNum].SetActive(false);
+        }
+        O_Usebutton.SetActive(true);
+        O_Canclebutton.SetActive(false);
+    }
     public void Skill_Destroy()
     {
-        
+        count_Number++;
         if (X.activeSelf == true)
         {
             X.SetActive(false);
@@ -302,17 +325,20 @@ public class MainSystem : MonoBehaviour
         
         if (count_Number % 2 != 0)
         {
-            count_Number++;
+            
+            
             X_Turn++;
         }
         if (count_Number % 2 == 0)
         {
-            count_Number++;
+            
+            
             O_Turn++;
         }
         Box.SetActive(true);
+        X_Canclebutton.SetActive(false);
+        O_Canclebutton.SetActive(false);
 
-        
 
     }
     public void X_Affectskillspace()
