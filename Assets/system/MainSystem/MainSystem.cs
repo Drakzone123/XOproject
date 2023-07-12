@@ -915,29 +915,73 @@ public class MainSystem : MonoBehaviour
             Debug.Log("X win 2");
         }
 
-        if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
+        if (WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf && WO[24].activeSelf)
         {
-            Debug.Log("X win 2");
+            Debug.Log("O win 2");
         }
         if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
         {
             Debug.Log("X win 3");
         }
 
-        if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
+        if (WO[4].activeSelf && WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf)
         {
-            Debug.Log("X win 3");
+            Debug.Log("O win 3");
         }
-        if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[24].activeSelf)
-        {
-            Debug.Log("X win 4");
-        }
-
-        if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[24].activeSelf)
+        if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[20].activeSelf)
         {
             Debug.Log("X win 4");
         }
 
+        if (WO[8].activeSelf && WO[12].activeSelf && WO[15].activeSelf && WO[20].activeSelf)
+        {
+            Debug.Log("O win 4");
+        }
+        if (WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf && WX[22].activeSelf)
+        {
+            Debug.Log("X win 5");
+        }
+
+        if (WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf && WO[22].activeSelf)
+        {
+            Debug.Log("O win 5");
+        }
+        if (WX[2].activeSelf && WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf)
+        {
+            Debug.Log("X win 6");
+        }
+
+        if (WO[2].activeSelf && WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf)
+        {
+            Debug.Log("O win 6");
+        }
+        if (WX[10].activeSelf && WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf)
+        {
+            Debug.Log("X win 7");
+        }
+
+        if (WO[10].activeSelf && WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf)
+        {
+            Debug.Log("O win 7");
+        }
+        if (WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf && WX[14].activeSelf)
+        {
+            Debug.Log("X win 8");
+        }
+
+        if (WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf && WO[14].activeSelf)
+        {
+            Debug.Log("O win 8");
+        }
+        if (WX[1].activeSelf && WX[7].activeSelf && WX[13].activeSelf && WX[19].activeSelf)
+        {
+            Debug.Log("X win 9");
+        }
+
+        if (WO[1].activeSelf && WO[7].activeSelf && WO[13].activeSelf && WO[19].activeSelf)
+        {
+            Debug.Log("O win 9");
+        }
     }
 }
 
