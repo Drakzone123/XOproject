@@ -910,5 +910,33 @@ public class MainSystem : MonoBehaviour
         {
             Debug.Log("O win 1");
         }
+        if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
+        {
+            Debug.Log("X win 2");
+        }
+
+        if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
+        {
+            Debug.Log("X win 2");
+        }
+        if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
+        {
+            Debug.Log("X win 3");
+        }
+
+        if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
+        {
+            Debug.Log("X win 3");
+        }
+        if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[24].activeSelf)
+        {
+            Debug.Log("X win 4");
+        }
+
+        if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[24].activeSelf)
+        {
+            Debug.Log("X win 4");
+        }
+
     }
-}
+
