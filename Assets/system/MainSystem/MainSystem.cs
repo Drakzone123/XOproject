@@ -900,8 +900,7 @@ public class MainSystem : MonoBehaviour
     }
     public void Wincheck()
     {
-        //updating for 5*5 soon
-        canvas_Ative[0].SetActive(false);
-        canvas_Ative[0].SetActive(false);
+       
+
     }
 }
