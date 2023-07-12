@@ -21918,8 +21918,58 @@ MonoBehaviour:
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
-  WX: []
-  WO: []
+  WX:
+  - {fileID: 1394383937}
+  - {fileID: 1889599642}
+  - {fileID: 1555083315}
+  - {fileID: 877935076}
+  - {fileID: 850765969}
+  - {fileID: 454282959}
+  - {fileID: 379501060}
+  - {fileID: 1387561284}
+  - {fileID: 495493974}
+  - {fileID: 732677292}
+  - {fileID: 1517023015}
+  - {fileID: 1660389198}
+  - {fileID: 270609529}
+  - {fileID: 733607611}
+  - {fileID: 503846246}
+  - {fileID: 1155522822}
+  - {fileID: 1450108289}
+  - {fileID: 1110615724}
+  - {fileID: 147207261}
+  - {fileID: 1954691366}
+  - {fileID: 383528168}
+  - {fileID: 882381180}
+  - {fileID: 2083225150}
+  - {fileID: 884828145}
+  - {fileID: 74206002}
+  WO:
+  - {fileID: 293965597}
+  - {fileID: 890174118}
+  - {fileID: 933121675}
+  - {fileID: 1068146150}
+  - {fileID: 763682337}
+  - {fileID: 444638669}
+  - {fileID: 952576696}
+  - {fileID: 619790532}
+  - {fileID: 1996502632}
+  - {fileID: 505564052}
+  - {fileID: 1195262044}
+  - {fileID: 578287603}
+  - {fileID: 1881541831}
+  - {fileID: 577257955}
+  - {fileID: 352557950}
+  - {fileID: 39922740}
+  - {fileID: 1435659595}
+  - {fileID: 424887701}
+  - {fileID: 1068274377}
+  - {fileID: 1534956573}
+  - {fileID: 6678178}
+  - {fileID: 88239539}
+  - {fileID: 827328352}
+  - {fileID: 347808189}
+  - {fileID: 435628601}
 --- !u!114 &1288924389
 MonoBehaviour:
   m_ObjectHideFlags: 0

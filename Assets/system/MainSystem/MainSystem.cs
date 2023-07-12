@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -900,7 +901,14 @@ public class MainSystem : MonoBehaviour
     }
     public void Wincheck()
     {
-       
+        if (WX[0].activeSelf && WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf)
+        {
+            Debug.Log("X win 1");
+        }
 
+        if (WO[0].activeSelf && WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf)
+        {
+            Debug.Log("O win 1");
+        }
     }
 }

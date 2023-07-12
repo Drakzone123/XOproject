@@ -8,5 +8,6 @@ public class RunCode : MainSystem
     {
         Skill_Active();
         Turn_Active();
+        Wincheck();
     }
 }
