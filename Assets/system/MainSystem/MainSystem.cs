@@ -37,13 +37,13 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject O_Usebutton;
     [SerializeField] public GameObject X_Canclebutton;
     [SerializeField] public GameObject O_Canclebutton;
-    [SerializeField] public static int skill_cooldown;   
+    [SerializeField] public static int skill_cooldown;
     [SerializeField] public static int X_skillPoint;
     [SerializeField] public static int O_skillPoint;
     [SerializeField] public static int Xskill_Count = 3;
     [SerializeField] public static int Oskill_Count = 3;
-    [SerializeField] public static int[] Xskill_CheckActive = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
-    [SerializeField] public static int[] Oskill_CheckActive = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    [SerializeField] public static int[] Xskill_CheckActive = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    [SerializeField] public static int[] Oskill_CheckActive = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 
 
@@ -61,7 +61,7 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Win check")]
     [SerializeField] public GameObject[] WX;
     [SerializeField] public GameObject[] WO;
-    
+
 
 
 
@@ -75,16 +75,16 @@ public class MainSystem : MonoBehaviour
         {
             X_Turn++;
             X.SetActive(true);
-            
+
         }
         if (count_Number % 2 == 0)
         {
             O_Turn++;
             O.SetActive(true);
-            
+
         }
         Box.SetActive(false);
-        
+
     }
     public void Turn_Count()
     {
@@ -94,9 +94,9 @@ public class MainSystem : MonoBehaviour
             skill_Turn++;
 
         }
-       
 
-        
+
+
 
     }
     public void Skill_count()
@@ -106,15 +106,15 @@ public class MainSystem : MonoBehaviour
             X_skillPoint++;
             O_skillPoint++;
             skill_Turn = 0;
-            
-            
+
+
         }
         if (X_skillPoint >= Xskill_Count) X_skillPoint = Xskill_Count;
         if (O_skillPoint >= Oskill_Count) O_skillPoint = Oskill_Count;
 
 
 
-    } 
+    }
     public void Skill_Active()
     {
         /*------------------------------ Xskillpoint ---------------------*/
@@ -227,7 +227,7 @@ public class MainSystem : MonoBehaviour
         /*------------------------------ skill_Usingbutton ---------------------*/
 
 
-        if (X_skillPoint > 0  )
+        if (X_skillPoint > 0)
         {
             if (count_Number % 2 == 0)
             {
@@ -235,9 +235,9 @@ public class MainSystem : MonoBehaviour
             }
             else { X_Usebutton.SetActive(false); }
 
-        } 
+        }
 
-        if (O_skillPoint > 0 )
+        if (O_skillPoint > 0)
         {
             if (count_Number % 2 != 0)
             {
@@ -248,9 +248,9 @@ public class MainSystem : MonoBehaviour
 
 
     }
-    public void Turn_Active() 
+    public void Turn_Active()
     {
-        
+
         if (count_Number % 2 != 0)
         {
             turn_Active[0].SetActive(true);
@@ -264,29 +264,29 @@ public class MainSystem : MonoBehaviour
 
 
         }
-       
-       
+
+
 
     }
     public void XSkill_Use()
     {
-        
+
         X_skillPoint--;
         Xskill_Count--;
         X_Affectskillspace();
         X_Usebutton.SetActive(false);
-        X_Canclebutton.SetActive(true);    
-        
+        X_Canclebutton.SetActive(true);
+
     }
     public void OSkill_Use()
     {
-        
+
         O_skillPoint--;
         Oskill_Count--;
         O_Usebutton.SetActive(false);
         O_Canclebutton.SetActive(true);
         O_Affectskillspace();
-        
+
 
     }
     public void XSkill_Cancle()
@@ -317,23 +317,23 @@ public class MainSystem : MonoBehaviour
         if (X.activeSelf == true)
         {
             X.SetActive(false);
-            
+
         }
         if (O.activeSelf == true)
         {
             O.SetActive(false);
         }
-        
+
         if (count_Number % 2 != 0)
         {
-            
-            
+
+
             X_Turn++;
         }
         if (count_Number % 2 == 0)
         {
-            
-            
+
+
             O_Turn++;
         }
         Box.SetActive(true);
@@ -738,7 +738,7 @@ public class MainSystem : MonoBehaviour
         {
             Oskill_CheckActive[0] = 2;
             if (Oskill_CheckActive[0] == 2) O_cooldown_Area[0].SetActive(true);
-            
+
         }
         if (OcooldownArea.name == ("A2_Oskillarea"))
         {
@@ -939,4 +939,7 @@ public class MainSystem : MonoBehaviour
         }
 
     }
+}
+
+  
 
