@@ -61,9 +61,13 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Win check")]
     [SerializeField] public GameObject[] WX;
     [SerializeField] public GameObject[] WO;
+    [SerializeField] public GameObject x_Winscene;
+    [SerializeField] public GameObject o_Winscene;
 
+    [Header("variable for Setting menu")]
 
-
+    [SerializeField] public GameObject[] grid_G;
+    [SerializeField] public GameObject settint_scene;
 
 
 
@@ -899,237 +903,341 @@ public class MainSystem : MonoBehaviour
         canvas_Ative[0].SetActive(false);
         canvas_Ative[1].SetActive(true);
     }
+    public void Restrat_Button()
+    {
+        turn_Check = 1;
+        skill_Turn = 1;
+        xo_Check = 0;
+        count_Number = 0;
+        x_Point = 0;
+        o_Point = 0;
+        t_Point = 0;
+        X_Turn = 0;
+        O_Turn = 0;
+        X_skillPoint = 0;
+        O_skillPoint = 0;
+        Xskill_Count = 3;
+        Oskill_Count = 3;
+        x_Winscene.SetActive(false);
+        o_Winscene.SetActive(false);
+        for (int x_Num = 0;x_Num < 25; x_Num++)
+        {
+            WX[x_Num].SetActive(false);
+        }
+        for (int o_Num = 0; o_Num < 25; o_Num++)
+        {
+            WO[o_Num].SetActive(false);
+        }
+        for (int G_Num = 0; G_Num < 25; G_Num++)
+        {
+            grid_G[G_Num].SetActive(true);
+        }
+
+
+
+    }
+    public void Back_setttingButton()
+    {
+        settint_scene.SetActive(false);
+    }
+
+    public void Setting_Button()
+    {
+        settint_scene.SetActive(true);
+    }
+
+    public void Exit_button()
+    {
+        Application.Quit();
+    }
     public void Wincheck()
     {
         if (WX[0].activeSelf && WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf)
         {
-            Debug.Log("X win 1");
+
+            x_Winscene.SetActive(true);
         }
 
         if (WO[0].activeSelf && WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf)
         {
-            Debug.Log("O win 1");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
         {
-            Debug.Log("X win 2");
+            x_Winscene.SetActive(true);
         }
 
         if (WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf && WO[24].activeSelf)
         {
-            Debug.Log("O win 2");
-        }
-        if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
-        {
-            Debug.Log("X win 3");
+            o_Winscene.SetActive(true);
         }
 
+
+        if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
+        {
+            x_Winscene.SetActive(true);
+        }
         if (WO[4].activeSelf && WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf)
         {
-            Debug.Log("O win 3");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[20].activeSelf)
         {
-            Debug.Log("X win 4");
+            x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf && WO[20].activeSelf)
         {
-            Debug.Log("O win 4");
-        }
-        if (WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf && WX[22].activeSelf)
-        {
-            Debug.Log("X win 5");
+            o_Winscene.SetActive(true);
         }
 
+
+        if (WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf && WX[22].activeSelf)
+        {
+            x_Winscene.SetActive(true);
+        }
         if (WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf && WO[22].activeSelf)
         {
-            Debug.Log("O win 5");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[2].activeSelf && WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf)
         {
-            Debug.Log("X win 6");
+            x_Winscene.SetActive(true);
         }
         if (WO[2].activeSelf && WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf)
         {
-            Debug.Log("O win 6");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[10].activeSelf && WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf)
         {
-            Debug.Log("X win 7");
+            x_Winscene.SetActive(true);
         }
         if (WO[10].activeSelf && WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf)
         {
-            Debug.Log("O win 7");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf && WX[14].activeSelf)
         {
-            Debug.Log("X win 8");
+            x_Winscene.SetActive(true);
         }
         if (WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf && WO[14].activeSelf)
         {
-            Debug.Log("O win 8");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[1].activeSelf && WX[7].activeSelf && WX[13].activeSelf && WX[19].activeSelf)
         {
-            Debug.Log("X win 9");
+            x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[7].activeSelf && WO[13].activeSelf && WO[19].activeSelf)
         {
-            Debug.Log("O win 9");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[3].activeSelf && WX[7].activeSelf && WX[11].activeSelf && WX[15].activeSelf)
         {
-            Debug.Log("X win 10");
+            x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[7].activeSelf && WO[11].activeSelf && WO[15].activeSelf)
         {
-            Debug.Log("O win 10");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[0].activeSelf && WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf)
         {
-            Debug.Log("X win 11");
+            x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf)
         {
-            Debug.Log("O win 11");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[0].activeSelf && WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf)
         {
-            Debug.Log("X win 12");
+            x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf)
         {
-            Debug.Log("O win 12");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf && WX[4].activeSelf)
         {
-            Debug.Log("X win 13");
+            x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf && WO[4].activeSelf)
         {
-            Debug.Log("O win 13");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[5].activeSelf && WX[11].activeSelf && WX[17].activeSelf && WX[23].activeSelf)
         {
-            Debug.Log("X win 14");
+            x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[11].activeSelf && WO[17].activeSelf && WO[23].activeSelf)
         {
-            Debug.Log("O win 14");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[9].activeSelf && WX[13].activeSelf && WX[17].activeSelf && WX[21].activeSelf)
         {
-            Debug.Log("X win 15");
+            x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[13].activeSelf && WO[17].activeSelf && WO[21].activeSelf)
         {
-            Debug.Log("O win 15");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[1].activeSelf && WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf)
         {
-            Debug.Log("X win 16");
+            x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf)
         {
-            Debug.Log("O win 16");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[5].activeSelf && WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf)
         {
-            Debug.Log("X win 17");
+            x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf)
         {
-            Debug.Log("O win 17");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf && WX[9].activeSelf)
         {
-            Debug.Log("X win 18");
+            x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf && WO[9].activeSelf)
         {
-            Debug.Log("O win 18");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[3].activeSelf && WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf)
         {
-            Debug.Log("X win 19");
+            x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf)
         {
-            Debug.Log("O win 19");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[15].activeSelf && WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf)
         {
-            Debug.Log("X win 20");
+            x_Winscene.SetActive(true);
         }
         if (WO[15].activeSelf && WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf)
         {
-            Debug.Log("O win 20");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf && WX[19].activeSelf)
         {
-            Debug.Log("X win 21");
+            x_Winscene.SetActive(true);
         }
         if (WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf && WO[19].activeSelf)
         {
-            Debug.Log("O win 21");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[4].activeSelf && WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf)
         {
-            Debug.Log("X win 22");
+            x_Winscene.SetActive(true);
         }
         if (WO[4].activeSelf && WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf)
         {
-            Debug.Log("O win 22");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[20].activeSelf && WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf)
         {
-            Debug.Log("X win 23");
+            x_Winscene.SetActive(true);
         }
         if (WO[20].activeSelf && WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf)
         {
-            Debug.Log("O win 23");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf && WX[24].activeSelf)
         {
-            Debug.Log("X win 24");
+            x_Winscene.SetActive(true);
         }
         if (WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf && WO[24].activeSelf)
         {
-            Debug.Log("O win 24");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf && WX[24].activeSelf)
         {
-            Debug.Log("X win 25");
+            x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf && WO[24].activeSelf)
         {
-            Debug.Log("O win 25");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf && WX[23].activeSelf)
         {
-            Debug.Log("X win 26");
+            x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf && WO[23].activeSelf)
         {
-            Debug.Log("O win 26");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf && WX[21].activeSelf)
         {
-            Debug.Log("X win 27");
+            x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf && WO[21].activeSelf)
         {
-            Debug.Log("O win 27");
+            o_Winscene.SetActive(true);
         }
+
+
         if (WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf && WX[20].activeSelf)
         {
-            Debug.Log("X win 28");
+            x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf && WO[20].activeSelf)
         {
-            Debug.Log("O win 28");
+            o_Winscene.SetActive(true);
         }
+
+
     }
+    
+
 }
 
   
