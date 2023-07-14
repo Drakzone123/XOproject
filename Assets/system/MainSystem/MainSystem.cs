@@ -933,7 +933,7 @@ public class MainSystem : MonoBehaviour
             grid_G[G_Num].SetActive(true);
         }
 
-
+        settint_scene.SetActive(false);
 
     }
     public void Back_setttingButton()
