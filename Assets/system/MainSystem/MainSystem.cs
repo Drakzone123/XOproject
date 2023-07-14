@@ -65,9 +65,15 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public GameObject o_Winscene;
 
     [Header("variable for Setting menu")]
-
     [SerializeField] public GameObject[] grid_G;
     [SerializeField] public GameObject settint_scene;
+
+    [Header("variable for HP System")]
+    [SerializeField] public Slider x_HP;
+    [SerializeField] public Slider o_HP;
+    [SerializeField] public static int x_Damage = 25;
+    [SerializeField] public static int o_Damage = 25;
+
 
 
 
@@ -954,289 +960,408 @@ public class MainSystem : MonoBehaviour
     {
         if (WX[0].activeSelf && WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf)
         {
-
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
 
         if (WO[0].activeSelf && WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
 
         if (WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf && WO[24].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[4].activeSelf && WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[20].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf && WO[20].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf && WX[22].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf && WO[22].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[2].activeSelf && WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[2].activeSelf && WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[10].activeSelf && WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[10].activeSelf && WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf && WX[14].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf && WO[14].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[7].activeSelf && WX[13].activeSelf && WX[19].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[7].activeSelf && WO[13].activeSelf && WO[19].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[3].activeSelf && WX[7].activeSelf && WX[11].activeSelf && WX[15].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[7].activeSelf && WO[11].activeSelf && WO[15].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[0].activeSelf && WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[0].activeSelf && WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf && WX[4].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf && WO[4].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[11].activeSelf && WX[17].activeSelf && WX[23].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[11].activeSelf && WO[17].activeSelf && WO[23].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[9].activeSelf && WX[13].activeSelf && WX[17].activeSelf && WX[21].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[13].activeSelf && WO[17].activeSelf && WO[21].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            //x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf && WX[9].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf && WO[9].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[3].activeSelf && WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[15].activeSelf && WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[15].activeSelf && WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf && WX[19].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf && WO[19].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[4].activeSelf && WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[4].activeSelf && WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //o_Winscene.SetActive(true);
         }
 
 
         if (WX[20].activeSelf && WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[20].activeSelf && WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf && WX[24].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf && WO[24].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            //  o_Winscene.SetActive(true);
         }
 
 
         if (WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf && WX[24].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf && WO[24].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf && WX[23].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf && WO[23].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf && WX[21].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf && WO[21].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf && WX[20].activeSelf)
         {
-            x_Winscene.SetActive(true);
+            X_Attack();
+            Restrat_Button();
+            // x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf && WO[20].activeSelf)
         {
-            o_Winscene.SetActive(true);
+            O_Attack();
+            Restrat_Button();
+            // o_Winscene.SetActive(true);
         }
 
 
     }
     
+    public void X_Attack()
+    {
+        x_HP.value = x_HP.value - o_Damage;
+    }
+    public void O_Attack()
+    {
+        o_HP.value = o_HP.value - x_Damage;
+    }
 
 }
 
