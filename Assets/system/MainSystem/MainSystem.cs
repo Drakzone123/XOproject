@@ -960,388 +960,774 @@ public class MainSystem : MonoBehaviour
     {
         if (WX[0].activeSelf && WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[0].SetActive(false); 
+            WX[6].SetActive(false);
+            WX[12].SetActive(false);
+            WX[18].SetActive(false);
+            grid_G[0].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[18].SetActive(true);
+
             //x_Winscene.SetActive(true);
         }
 
         if (WO[0].activeSelf && WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[0].SetActive(false);
+            WO[6].SetActive(false);
+            WO[12].SetActive(false);
+            WO[18].SetActive(false);
+            grid_G[0].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[18].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[12].activeSelf && WX[18].activeSelf && WX[24].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[6].SetActive(false);
+            WX[12].SetActive(false);
+            WX[18].SetActive(false);
+            WX[24].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[24].SetActive(true);
             //x_Winscene.SetActive(true);
         }
 
         if (WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf && WO[24].activeSelf)
         {
             O_Attack();
-            Restrat_Button();
+            WO[6].SetActive(false);
+            WO[12].SetActive(false);
+            WO[18].SetActive(false);
+            WO[24].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[24].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[4].activeSelf && WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[4].SetActive(false);
+            WX[8].SetActive(false);
+            WX[12].SetActive(false);
+            WX[16].SetActive(false);
+            grid_G[4].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[16].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[4].activeSelf && WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[4].SetActive(false);
+            WO[8].SetActive(false);
+            WO[12].SetActive(false);
+            WO[16].SetActive(false);
+            grid_G[4].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[16].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[8].activeSelf && WX[12].activeSelf && WX[16].activeSelf && WX[20].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[8].SetActive(false);
+            WX[12].SetActive(false);
+            WX[16].SetActive(false);
+            WX[20].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[20].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[12].activeSelf && WO[16].activeSelf && WO[20].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[8].SetActive(false);
+            WO[12].SetActive(false);
+            WO[16].SetActive(false);
+            WO[20].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[20].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf && WX[22].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[7].SetActive(false);
+            WX[12].SetActive(false);
+            WX[17].SetActive(false);
+            WX[22].SetActive(false);
+            grid_G[7].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[22].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf && WO[22].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[7].SetActive(false);
+            WO[12].SetActive(false);
+            WO[17].SetActive(false);
+            WO[22].SetActive(false);
+            grid_G[7].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[22].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[2].activeSelf && WX[7].activeSelf && WX[12].activeSelf && WX[17].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[2].SetActive(false);
+            WX[7].SetActive(false);
+            WX[12].SetActive(false);
+            WX[17].SetActive(false);
+            grid_G[2].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[17].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[2].activeSelf && WO[7].activeSelf && WO[12].activeSelf && WO[17].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[2].SetActive(false);
+            WO[7].SetActive(false);
+            WO[12].SetActive(false);
+            WO[17].SetActive(false);
+            grid_G[2].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[17].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[10].activeSelf && WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[10].SetActive(false);
+            WX[11].SetActive(false);
+            WX[12].SetActive(false);
+            WX[13].SetActive(false);
+            grid_G[10].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[13].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[10].activeSelf && WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[10].SetActive(false);
+            WO[11].SetActive(false);
+            WO[12].SetActive(false);
+            WO[13].SetActive(false);
+            grid_G[10].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[13].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[11].activeSelf && WX[12].activeSelf && WX[13].activeSelf && WX[14].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[11].SetActive(false);
+            WX[12].SetActive(false);
+            WX[13].SetActive(false);
+            WX[14].SetActive(false);
+            grid_G[11].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[14].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[11].activeSelf && WO[12].activeSelf && WO[13].activeSelf && WO[14].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[11].SetActive(false);
+            WO[12].SetActive(false);
+            WO[13].SetActive(false);
+            WO[14].SetActive(false);
+            grid_G[11].SetActive(true);
+            grid_G[12].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[14].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[7].activeSelf && WX[13].activeSelf && WX[19].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[1].SetActive(false);
+            WX[7].SetActive(false);
+            WX[13].SetActive(false);
+            WX[19].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[19].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[7].activeSelf && WO[13].activeSelf && WO[19].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[1].SetActive(false);
+            WO[7].SetActive(false);
+            WO[13].SetActive(false);
+            WO[19].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[19].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[3].activeSelf && WX[7].activeSelf && WX[11].activeSelf && WX[15].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[3].SetActive(false);
+            WX[7].SetActive(false);
+            WX[11].SetActive(false);
+            WX[15].SetActive(false);
+            grid_G[3].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[15].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[7].activeSelf && WO[11].activeSelf && WO[15].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[3].SetActive(false);
+            WO[7].SetActive(false);
+            WO[11].SetActive(false);
+            WO[15].SetActive(false);
+            grid_G[3].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[15].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[0].activeSelf && WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[0].SetActive(false);
+            WX[5].SetActive(false);
+            WX[10].SetActive(false);
+            WX[15].SetActive(false);
+            grid_G[3].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[15].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[0].SetActive(false);
+            WO[5].SetActive(false);
+            WO[10].SetActive(false);
+            WO[15].SetActive(false);
+            grid_G[0].SetActive(true);
+            grid_G[5].SetActive(true);
+            grid_G[10].SetActive(true);
+            grid_G[15].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[0].activeSelf && WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[0].SetActive(false);
+            WX[1].SetActive(false);
+            WX[2].SetActive(false);
+            WX[3].SetActive(false);
+            grid_G[0].SetActive(true);
+            grid_G[1].SetActive(true);
+            grid_G[2].SetActive(true);
+            grid_G[3].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[0].activeSelf && WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[0].SetActive(false);
+            WO[1].SetActive(false);
+            WO[2].SetActive(false);
+            WO[3].SetActive(false);
+            grid_G[0].SetActive(true);
+            grid_G[1].SetActive(true);
+            grid_G[2].SetActive(true);
+            grid_G[3].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[2].activeSelf && WX[3].activeSelf && WX[4].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[1].SetActive(false);
+            WX[2].SetActive(false);
+            WX[3].SetActive(false);
+            WX[4].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[2].SetActive(true);
+            grid_G[3].SetActive(true);
+            grid_G[4].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[2].activeSelf && WO[3].activeSelf && WO[4].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[1].SetActive(false);
+            WO[2].SetActive(false);
+            WO[3].SetActive(false);
+            WO[4].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[2].SetActive(true);
+            grid_G[3].SetActive(true);
+            grid_G[4].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[11].activeSelf && WX[17].activeSelf && WX[23].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[5].SetActive(false);
+            WX[11].SetActive(false);
+            WX[17].SetActive(false);
+            WX[23].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[23].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[11].activeSelf && WO[17].activeSelf && WO[23].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[5].SetActive(false);
+            WO[11].SetActive(false);
+            WO[17].SetActive(false);
+            WO[23].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[23].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[9].activeSelf && WX[13].activeSelf && WX[17].activeSelf && WX[21].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[9].SetActive(false);
+            WX[13].SetActive(false);
+            WX[17].SetActive(false);
+            WX[21].SetActive(false);
+            grid_G[9].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[21].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[13].activeSelf && WO[17].activeSelf && WO[21].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[9].SetActive(false);
+            WO[13].SetActive(false);
+            WO[17].SetActive(false);
+            WO[21].SetActive(false);
+            grid_G[9].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[21].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[1].activeSelf && WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[1].SetActive(false);
+            WX[6].SetActive(false);
+            WX[11].SetActive(false);
+            WX[16].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[16].SetActive(true);
             //x_Winscene.SetActive(true);
         }
         if (WO[1].activeSelf && WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[1].SetActive(false);
+            WO[6].SetActive(false);
+            WO[11].SetActive(false);
+            WO[16].SetActive(false);
+            grid_G[1].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[16].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[5].SetActive(false);
+            WX[6].SetActive(false);
+            WX[7].SetActive(false);
+            WX[8].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[8].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[5].SetActive(false);
+            WO[6].SetActive(false);
+            WO[7].SetActive(false);
+            WO[8].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[6].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[8].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[7].activeSelf && WX[8].activeSelf && WX[9].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[6].SetActive(false);
+            WX[7].SetActive(false);
+            WX[8].SetActive(false);
+            WX[9].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[9].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[7].activeSelf && WO[8].activeSelf && WO[9].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[6].SetActive(false);
+            WO[7].SetActive(false);
+            WO[8].SetActive(false);
+            WO[9].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[7].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[9].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[3].activeSelf && WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[3].SetActive(false);
+            WX[8].SetActive(false);
+            WX[13].SetActive(false);
+            WX[18].SetActive(false);
+            grid_G[3].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[3].activeSelf && WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[3].SetActive(false);
+            WO[8].SetActive(false);
+            WO[13].SetActive(false);
+            WO[18].SetActive(false);
+            grid_G[3].SetActive(true);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[15].activeSelf && WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[15].SetActive(false);
+            WX[16].SetActive(false);
+            WX[17].SetActive(false);
+            WX[18].SetActive(false);
+            grid_G[15].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[18].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[15].activeSelf && WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[15].SetActive(false);
+            WO[16].SetActive(false);
+            WO[17].SetActive(false);
+            WO[18].SetActive(false);
+            grid_G[15].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[1].SetActive(true);
+            grid_G[18].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[16].activeSelf && WX[17].activeSelf && WX[18].activeSelf && WX[19].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[16].SetActive(false);
+            WX[17].SetActive(false);
+            WX[18].SetActive(false);
+            WX[19].SetActive(false);
+            grid_G[16].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[19].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[16].activeSelf && WO[17].activeSelf && WO[18].activeSelf && WO[19].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[16].SetActive(false);
+            WO[17].SetActive(false);
+            WO[18].SetActive(false);
+            WO[19].SetActive(false);
+            grid_G[16].SetActive(true);
+            grid_G[17].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[19].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[4].activeSelf && WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[4].SetActive(false);
+            WX[9].SetActive(false);
+            WX[14].SetActive(false);
+            WX[19].SetActive(false);
+            grid_G[4].SetActive(true);
+            grid_G[9].SetActive(true);
+            grid_G[14].SetActive(true);
+            grid_G[19].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[4].activeSelf && WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[4].SetActive(false);
+            WO[9].SetActive(false);
+            WO[14].SetActive(false);
+            WO[19].SetActive(false);
+            grid_G[4].SetActive(true);
+            grid_G[9].SetActive(true);
+            grid_G[14].SetActive(true);
+            grid_G[19].SetActive(true);
             //o_Winscene.SetActive(true);
         }
 
 
         if (WX[20].activeSelf && WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[20].SetActive(false);
+            WX[21].SetActive(false);
+            WX[22].SetActive(false);
+            WX[23].SetActive(false);
+            grid_G[20].SetActive(true);
+            grid_G[21].SetActive(true);
+            grid_G[22].SetActive(true);
+            grid_G[23].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[20].activeSelf && WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[20].SetActive(false);
+            WO[21].SetActive(false);
+            WO[22].SetActive(false);
+            WO[23].SetActive(false);
+            grid_G[20].SetActive(true);
+            grid_G[21].SetActive(true);
+            grid_G[22].SetActive(true);
+            grid_G[23].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[21].activeSelf && WX[22].activeSelf && WX[23].activeSelf && WX[24].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[21].SetActive(false);
+            WX[22].SetActive(false);
+            WX[23].SetActive(false);
+            WX[24].SetActive(false);
+            grid_G[21].SetActive(true);
+            grid_G[22].SetActive(true);
+            grid_G[23].SetActive(true);
+            grid_G[24].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[21].activeSelf && WO[22].activeSelf && WO[23].activeSelf && WO[24].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[21].SetActive(false);
+            WO[22].SetActive(false);
+            WO[23].SetActive(false);
+            WO[24].SetActive(false);
+            grid_G[21].SetActive(true);
+            grid_G[22].SetActive(true);
+            grid_G[23].SetActive(true);
+            grid_G[24].SetActive(true);
             //  o_Winscene.SetActive(true);
         }
 
 
         if (WX[9].activeSelf && WX[14].activeSelf && WX[19].activeSelf && WX[24].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[9].SetActive(false);
+            WX[14].SetActive(false);
+            WX[19].SetActive(false);
+            WX[24].SetActive(false);
+            grid_G[9].SetActive(true);
+            grid_G[14].SetActive(true);
+            grid_G[19].SetActive(true);
+            grid_G[24].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[9].activeSelf && WO[14].activeSelf && WO[19].activeSelf && WO[24].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[9].SetActive(false);
+            WO[14].SetActive(false);
+            WO[19].SetActive(false);
+            WO[24].SetActive(false);
+            grid_G[9].SetActive(true);
+            grid_G[14].SetActive(true);
+            grid_G[19].SetActive(true);
+            grid_G[24].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[8].activeSelf && WX[13].activeSelf && WX[18].activeSelf && WX[23].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[8].SetActive(false);
+            WX[13].SetActive(false);
+            WX[18].SetActive(false);
+            WX[23].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[23].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[8].activeSelf && WO[13].activeSelf && WO[18].activeSelf && WO[23].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[8].SetActive(false);
+            WO[13].SetActive(false);
+            WO[18].SetActive(false);
+            WO[23].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[23].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf && WX[21].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[6].SetActive(false);
+            WX[11].SetActive(false);
+            WX[16].SetActive(false);
+            WX[21].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[21].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf && WO[21].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
+            X_Attack();
+            WO[6].SetActive(false);
+            WO[11].SetActive(false);
+            WO[16].SetActive(false);
+            WO[21].SetActive(false);
+            grid_G[6].SetActive(true);
+            grid_G[11].SetActive(true);
+            grid_G[16].SetActive(true);
+            grid_G[21].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
 
         if (WX[5].activeSelf && WX[10].activeSelf && WX[15].activeSelf && WX[20].activeSelf)
         {
-            X_Attack();
-            Restrat_Button();
+            O_Attack();
+            WX[5].SetActive(false);
+            WX[10].SetActive(false);
+            WX[15].SetActive(false);
+            WX[20].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[10].SetActive(true);
+            grid_G[15].SetActive(true);
+            grid_G[20].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf && WO[20].activeSelf)
@@ -1350,7 +1736,18 @@ public class MainSystem : MonoBehaviour
             Restrat_Button();
             // o_Winscene.SetActive(true);
         }
-
+        {
+            X_Attack();
+            WO[5].SetActive(false);
+            WO[10].SetActive(false);
+            WO[15].SetActive(false);
+            WO[20].SetActive(false);
+            grid_G[5].SetActive(true);
+            grid_G[10].SetActive(true);
+            grid_G[15].SetActive(true);
+            grid_G[20].SetActive(true);
+            // o_Winscene.SetActive(true);
+        }
 
     }
     
@@ -1362,7 +1759,6 @@ public class MainSystem : MonoBehaviour
     {
         o_HP.value = o_HP.value - x_Damage;
     }
-
 }
 
   
