@@ -1732,11 +1732,6 @@ public class MainSystem : MonoBehaviour
         }
         if (WO[5].activeSelf && WO[10].activeSelf && WO[15].activeSelf && WO[20].activeSelf)
         {
-            O_Attack();
-            Restrat_Button();
-            // o_Winscene.SetActive(true);
-        }
-        {
             X_Attack();
             WO[5].SetActive(false);
             WO[10].SetActive(false);
@@ -1746,8 +1741,10 @@ public class MainSystem : MonoBehaviour
             grid_G[10].SetActive(true);
             grid_G[15].SetActive(true);
             grid_G[20].SetActive(true);
+
             // o_Winscene.SetActive(true);
         }
+        
 
     }
     
