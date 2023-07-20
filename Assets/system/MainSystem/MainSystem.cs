@@ -67,6 +67,7 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Setting menu")]
     [SerializeField] public GameObject[] grid_G;
     [SerializeField] public GameObject settint_scene;
+    [SerializeField] public GameObject[] game_scene;
 
     [Header("variable for HP System")]
     [SerializeField] public Slider x_HP;
@@ -1250,9 +1251,9 @@ public class MainSystem : MonoBehaviour
             WX[5].SetActive(false);
             WX[10].SetActive(false);
             WX[15].SetActive(false);
-            grid_G[3].SetActive(true);
-            grid_G[7].SetActive(true);
-            grid_G[11].SetActive(true);
+            grid_G[0].SetActive(true);
+            grid_G[5].SetActive(true);
+            grid_G[10].SetActive(true);
             grid_G[15].SetActive(true);
             //x_Winscene.SetActive(true);
         }
@@ -1746,10 +1747,22 @@ public class MainSystem : MonoBehaviour
 
             // o_Winscene.SetActive(true);
         }
-        
 
+        if (x_HP.value <= 0)
+        {
+            o_Winscene.SetActive(true);
+        }
+        if (o_HP.value <= 0)
+        {
+            x_Winscene.SetActive(true);
+        }
     }
     
+    public void Back_Menu()
+    {
+        game_scene[0].SetActive(false);
+        game_scene[1].SetActive(true);
+    } 
     public void X_Attack()
     {
         x_HP.value = x_HP.value - o_Damage;
