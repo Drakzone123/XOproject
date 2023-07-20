@@ -924,6 +924,8 @@ public class MainSystem : MonoBehaviour
         O_skillPoint = 0;
         Xskill_Count = 3;
         Oskill_Count = 3;
+        x_HP.value = 100;
+        o_HP.value = 100;
         x_Winscene.SetActive(false);
         o_Winscene.SetActive(false);
         for (int x_Num = 0;x_Num < 25; x_Num++)
