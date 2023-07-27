@@ -75,7 +75,7 @@ public class MainSystem : MonoBehaviour
     [SerializeField] public static int x_Damage = 25;
     [SerializeField] public static int o_Damage = 25;
 
-
+    
 
 
     public void XO_Count()
@@ -948,11 +948,13 @@ public class MainSystem : MonoBehaviour
     public void Back_setttingButton()
     {
         settint_scene.SetActive(false);
+        canvas_Ative[2].SetActive(true);
     }
 
     public void Setting_Button()
     {
         settint_scene.SetActive(true);
+       
     }
 
     public void Exit_button()
@@ -1771,6 +1773,7 @@ public class MainSystem : MonoBehaviour
     {
         o_HP.value = o_HP.value - x_Damage;
     }
+    
 }
 
   

@@ -15,6 +15,9 @@ public class Interface_function : MainSystem
     [SerializeField] public TextMeshProUGUI o_potintCount;
     [SerializeField] public TextMeshProUGUI t_potintCount;
 
+    [Header("variable for popup")]
+    [SerializeField] public GameObject canvaspopup_Setting;
+
     public void Turn_counted()
     {
         if (count_Number <= 1)
