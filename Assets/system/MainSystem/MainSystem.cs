@@ -1773,7 +1773,7 @@ public class MainSystem : MonoBehaviour
     {
         o_HP.value = o_HP.value - x_Damage;
     }
-    
+   
 }
 
   
