@@ -56,6 +56,8 @@ public class MainSystem : MonoBehaviour
     public GameObject X;
     public GameObject O;
     public GameObject Box;
+    public GameObject X_Cha;
+    public GameObject O_Cha;
 
 
     [Header("variable for Win check")]
@@ -266,13 +268,16 @@ public class MainSystem : MonoBehaviour
         {
             turn_Active[0].SetActive(true);
             turn_Active[1].SetActive(false);
+            X_Cha.SetActive(true);
+            O_Cha.SetActive(false);
 
         }
         if (count_Number % 2 == 0)
         {
             turn_Active[1].SetActive(true);
             turn_Active[0].SetActive(false);
-
+            O_Cha.SetActive(true);
+            X_Cha.SetActive(false);
 
         }
 

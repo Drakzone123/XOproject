@@ -338,6 +338,8 @@ MonoBehaviour:
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -494,6 +496,8 @@ MonoBehaviour:
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 21874528}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -656,6 +660,8 @@ MonoBehaviour:
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 25258362}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -1284,6 +1290,8 @@ MonoBehaviour:
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 43423484}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -1446,6 +1454,8 @@ MonoBehaviour:
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 46560742}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -1608,6 +1618,8 @@ MonoBehaviour:
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 63377588}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -1998,6 +2010,8 @@ MonoBehaviour:
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 86922748}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -2236,6 +2250,8 @@ MonoBehaviour:
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 90396594}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -2618,6 +2634,8 @@ MonoBehaviour:
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -2698,6 +2716,8 @@ MonoBehaviour:
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 100322655}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -2860,6 +2880,8 @@ MonoBehaviour:
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 110266505}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -2985,8 +3007,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -8.615, y: 0}
-  m_SizeDelta: {x: -12.771, y: 0}
+  m_AnchoredPosition: {x: 105.27267, y: -20.03109}
+  m_SizeDelta: {x: -361.3741, y: -12.0622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &120119745
 GameObject:
@@ -3192,6 +3214,8 @@ MonoBehaviour:
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 123301499}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -3294,7 +3318,6 @@ GameObject:
   - component: {fileID: 138753450}
   - component: {fileID: 138753452}
   - component: {fileID: 138753451}
-  - component: {fileID: 138753453}
   m_Layer: 5
   m_Name: O_turn
   m_TagString: Untagged
@@ -3310,17 +3333,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138753449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.5112906}
+  m_LocalScale: {x: 0.54375, y: 0.54375, z: 0.54375}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1466438763}
-  m_Father: {fileID: 297245983}
+  m_Children: []
+  m_Father: {fileID: 1798911387}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 754, y: 117}
+  m_AnchoredPosition: {x: 542.6244, y: -62.33522}
   m_SizeDelta: {x: 300, y: 685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &138753451
@@ -3361,58 +3383,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138753449}
   m_CullTransparentMesh: 1
---- !u!114 &138753453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138753449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d5deadf2c9436d43abc6b780137b597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Image: {fileID: 138753451}
-  m_SpriteArray:
-  - {fileID: 21300000, guid: e2fbffb61df89e54fa00aee51d864c4a, type: 3}
-  - {fileID: 21300000, guid: 3c14b1459507cdf4ea2996c833adf4de, type: 3}
-  - {fileID: 21300000, guid: cd48ae4ab898c564598af85f2e1ff742, type: 3}
-  - {fileID: 21300000, guid: 7218cac43f06ab947a6c5f2428b84f19, type: 3}
-  - {fileID: 21300000, guid: f26848b30fd972d4999f99a67f61046d, type: 3}
-  - {fileID: 21300000, guid: 1246bc3a16cc7f2488d95419c8adb8ce, type: 3}
-  - {fileID: 21300000, guid: d2fcb6adc2e377546913151f3fae6e15, type: 3}
-  - {fileID: 21300000, guid: 0a2e0773b6122e64484c94a7b4aa4a71, type: 3}
-  - {fileID: 21300000, guid: 1167830581975aa4db284834d61f1cca, type: 3}
-  - {fileID: 21300000, guid: 9907d4932e38abf4ab2a85ddd6cb6ff6, type: 3}
-  - {fileID: 21300000, guid: 4569da5d4255e694e8208ec240b86b7c, type: 3}
-  - {fileID: 21300000, guid: 7883d9f674ef3aa4087e7718047fe533, type: 3}
-  - {fileID: 21300000, guid: f67c553303cc7264c8af6bad9b1270dd, type: 3}
-  - {fileID: 21300000, guid: dee51698e34e4d34bb65b409a8bd2766, type: 3}
-  - {fileID: 21300000, guid: 7e4a0b5512711c7428d5d9e8c36b4441, type: 3}
-  - {fileID: 21300000, guid: 96146569e2030544d8a3c1e3653553a0, type: 3}
-  - {fileID: 21300000, guid: 6a5359e811a7e8a49a338b49f22c40a5, type: 3}
-  - {fileID: 21300000, guid: 806e1787da8429d46b2ee3817cdb996e, type: 3}
-  - {fileID: 21300000, guid: 293d3af6c6a495744acf6ce782575921, type: 3}
-  - {fileID: 21300000, guid: 144e036e9cef54949a37dbd79ef897a7, type: 3}
-  - {fileID: 21300000, guid: 68b23ff53ef3da64eb51217fe1f7332b, type: 3}
-  - {fileID: 21300000, guid: 2af179edd3eb0b54bbbdbd51d6934a81, type: 3}
-  - {fileID: 21300000, guid: 022139122c7e1b54d9db90943ed191c1, type: 3}
-  - {fileID: 21300000, guid: f23c82fe9275bbc43b1fe2222c88805a, type: 3}
-  - {fileID: 21300000, guid: 551fe0c6a5d4e2f41999b0d7834915e7, type: 3}
-  - {fileID: 21300000, guid: bb3473d9cd63aa343905b61f7da6ad6f, type: 3}
-  - {fileID: 21300000, guid: 42403f4c4a9bb0543a1258a39d7ea81a, type: 3}
-  - {fileID: 21300000, guid: 3d0bddc41c9b40f4a8ed83f5315919b9, type: 3}
-  - {fileID: 21300000, guid: 72ea4bea969981342bfd47ea1dd4a24e, type: 3}
-  - {fileID: 21300000, guid: a67b9d7d3d4e5304ca3daec3d3762dab, type: 3}
-  - {fileID: 21300000, guid: 6d4b52c47b8d2ed4da863013db6df73b, type: 3}
-  - {fileID: 21300000, guid: 81e7a5ea38121c545b0196f556aca0a8, type: 3}
-  - {fileID: 21300000, guid: 7a9b50d22a04a634c890737848cf9bff, type: 3}
-  - {fileID: 21300000, guid: 364c35dc85d2b424fae2e6d71d72ba29, type: 3}
-  - {fileID: 21300000, guid: 05b506c9f0f9a154aba0462352c4f81a, type: 3}
-  - {fileID: 21300000, guid: c1ef49efcc8e80c46b6fe1a950bafe0c, type: 3}
-  - {fileID: 21300000, guid: 3b968e2f12347904e881a766a08a04be, type: 3}
-  m_Speed: 0.02
 --- !u!1 &147207261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,6 +3674,8 @@ MonoBehaviour:
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -3784,6 +3756,8 @@ MonoBehaviour:
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 162677419}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -4081,6 +4055,8 @@ MonoBehaviour:
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 164289182}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -4387,6 +4363,8 @@ MonoBehaviour:
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -4611,6 +4589,8 @@ MonoBehaviour:
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -4691,6 +4671,8 @@ MonoBehaviour:
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 186526111}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -4853,6 +4835,8 @@ MonoBehaviour:
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 205794473}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -5015,6 +4999,8 @@ MonoBehaviour:
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 212034604}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -5179,6 +5165,8 @@ MonoBehaviour:
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -5413,6 +5401,8 @@ MonoBehaviour:
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 218000412}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -5577,6 +5567,8 @@ MonoBehaviour:
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -5813,8 +5805,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5.188019, y: 0}
-  m_SizeDelta: {x: -12.432, y: 0}
+  m_AnchoredPosition: {x: -91.97757, y: -19.702694}
+  m_SizeDelta: {x: -354.5833, y: -15.8076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227703971
 MonoBehaviour:
@@ -5836,8 +5828,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5927,6 +5919,8 @@ MonoBehaviour:
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -6163,6 +6157,8 @@ MonoBehaviour:
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -6471,6 +6467,8 @@ MonoBehaviour:
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -6551,6 +6549,8 @@ MonoBehaviour:
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 267270082}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -6918,6 +6918,8 @@ MonoBehaviour:
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -7076,6 +7078,8 @@ MonoBehaviour:
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -7454,6 +7458,8 @@ MonoBehaviour:
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -7572,8 +7578,8 @@ RectTransform:
   - {fileID: 93809954}
   - {fileID: 781071700}
   - {fileID: 37539861}
-  - {fileID: 2090480701}
-  - {fileID: 138753450}
+  - {fileID: 1243381993}
+  - {fileID: 1798911387}
   - {fileID: 1043003044}
   - {fileID: 776916221}
   - {fileID: 1309286216}
@@ -7697,6 +7703,8 @@ MonoBehaviour:
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -8070,6 +8078,8 @@ MonoBehaviour:
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -8342,6 +8352,8 @@ MonoBehaviour:
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 309283130}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -8696,6 +8708,8 @@ MonoBehaviour:
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -8930,6 +8944,8 @@ MonoBehaviour:
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 352223346}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -9168,6 +9184,8 @@ MonoBehaviour:
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 356736389}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -9560,6 +9578,8 @@ MonoBehaviour:
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -9796,6 +9816,8 @@ MonoBehaviour:
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -10030,6 +10052,8 @@ MonoBehaviour:
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 396837647}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -10194,6 +10218,8 @@ MonoBehaviour:
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -10506,6 +10532,8 @@ MonoBehaviour:
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -10740,6 +10768,8 @@ MonoBehaviour:
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 411881678}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -11037,6 +11067,8 @@ MonoBehaviour:
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -11335,6 +11367,8 @@ MonoBehaviour:
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 429087111}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -11575,6 +11609,8 @@ MonoBehaviour:
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -11811,6 +11847,8 @@ MonoBehaviour:
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -12233,6 +12271,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454282959}
   m_CullTransparentMesh: 1
+--- !u!1 &459554657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459554658}
+  - component: {fileID: 459554660}
+  - component: {fileID: 459554659}
+  m_Layer: 5
+  m_Name: Graphic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &459554658
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459554657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1832718150}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -131.59256, y: 0}
+  m_SizeDelta: {x: -261.4452, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &459554659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459554657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 48c5a9ec7ad44654bac7e450a21f3dc3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &459554660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459554657}
+  m_CullTransparentMesh: 1
 --- !u!1 &493511965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12304,6 +12418,8 @@ MonoBehaviour:
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 493511965}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -12694,6 +12810,8 @@ MonoBehaviour:
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 507791984}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -12856,6 +12974,8 @@ MonoBehaviour:
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 509602479}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -13188,6 +13308,8 @@ MonoBehaviour:
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -13787,6 +13909,8 @@ MonoBehaviour:
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -14021,6 +14145,8 @@ MonoBehaviour:
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 593412683}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -14845,6 +14971,8 @@ MonoBehaviour:
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -15079,6 +15207,8 @@ MonoBehaviour:
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 650624954}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -15201,6 +15331,7 @@ RectTransform:
   m_Children:
   - {fileID: 698259230}
   - {fileID: 115043608}
+  - {fileID: 1791677991}
   m_Father: {fileID: 634179242}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15333,6 +15464,8 @@ MonoBehaviour:
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 97244671}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -15531,8 +15664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5.1879883, y: 0}
-  m_SizeDelta: {x: -12.432, y: 0}
+  m_AnchoredPosition: {x: 106.88188, y: -20.031113}
+  m_SizeDelta: {x: -361.215, y: -12.0622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698259231
 MonoBehaviour:
@@ -15787,6 +15920,8 @@ MonoBehaviour:
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -15867,6 +16002,8 @@ MonoBehaviour:
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 723826734}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -16173,6 +16310,8 @@ MonoBehaviour:
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -16913,6 +17052,8 @@ MonoBehaviour:
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 1083616836}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -17054,6 +17195,8 @@ MonoBehaviour:
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 784957918}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -17218,6 +17361,8 @@ MonoBehaviour:
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -17452,6 +17597,8 @@ MonoBehaviour:
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 812000988}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -17771,6 +17918,8 @@ MonoBehaviour:
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 838083420}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -17935,6 +18084,8 @@ MonoBehaviour:
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -18836,6 +18987,8 @@ MonoBehaviour:
   X: {fileID: 882381180}
   O: {fileID: 88239539}
   Box: {fileID: 148692971}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -19214,6 +19367,8 @@ MonoBehaviour:
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -19590,6 +19745,8 @@ MonoBehaviour:
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -19814,6 +19971,8 @@ MonoBehaviour:
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -19970,6 +20129,8 @@ MonoBehaviour:
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 953748910}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -20305,6 +20466,8 @@ MonoBehaviour:
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 972149767}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -20469,6 +20632,8 @@ MonoBehaviour:
   X: {fileID: 147207261}
   O: {fileID: 1068274377}
   Box: {fileID: 270430643}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -20782,6 +20947,8 @@ MonoBehaviour:
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 984887858}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -21088,6 +21255,8 @@ MonoBehaviour:
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -21170,6 +21339,8 @@ MonoBehaviour:
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -21406,6 +21577,8 @@ MonoBehaviour:
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -21642,6 +21815,8 @@ MonoBehaviour:
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -23397,6 +23572,8 @@ MonoBehaviour:
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -23633,6 +23810,8 @@ MonoBehaviour:
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -24011,6 +24190,8 @@ MonoBehaviour:
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -24235,6 +24416,8 @@ MonoBehaviour:
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -24459,6 +24642,8 @@ MonoBehaviour:
   X: {fileID: 495493974}
   O: {fileID: 1996502632}
   Box: {fileID: 1239382666}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -24468,6 +24653,39 @@ MonoBehaviour:
   game_scene: []
   x_HP: {fileID: 0}
   o_HP: {fileID: 0}
+--- !u!1 &1243381992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243381993}
+  m_Layer: 0
+  m_Name: X
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1243381993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243381992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -243.9301, y: 231.6395, z: -10.135706}
+  m_LocalScale: {x: 1.8390805, y: 1.8390805, z: 1.8390805}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2090480701}
+  - {fileID: 1657265752}
+  m_Father: {fileID: 297245983}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1255210975
 GameObject:
   m_ObjectHideFlags: 0
@@ -24539,6 +24757,8 @@ MonoBehaviour:
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 1255210975}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -24999,6 +25219,8 @@ MonoBehaviour:
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
+  X_Cha: {fileID: 2090480700}
+  O_Cha: {fileID: 138753449}
   WX:
   - {fileID: 1394383937}
   - {fileID: 1889599642}
@@ -25116,6 +25338,8 @@ MonoBehaviour:
   X: {fileID: 0}
   O: {fileID: 0}
   Box: {fileID: 0}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -25237,6 +25461,8 @@ MonoBehaviour:
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 1221974613}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -25471,6 +25697,8 @@ MonoBehaviour:
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1305202524}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -25806,6 +26034,8 @@ MonoBehaviour:
   X: {fileID: 1394383937}
   O: {fileID: 293965597}
   Box: {fileID: 415780495}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -26160,6 +26390,8 @@ MonoBehaviour:
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -26508,6 +26740,8 @@ MonoBehaviour:
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1387881897}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -26892,6 +27126,8 @@ MonoBehaviour:
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 1415649097}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -27132,6 +27368,8 @@ MonoBehaviour:
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -27420,6 +27658,7 @@ GameObject:
   - component: {fileID: 1466438763}
   - component: {fileID: 1466438765}
   - component: {fileID: 1466438764}
+  - component: {fileID: 1466438766}
   m_Layer: 5
   m_Name: OActive
   m_TagString: Untagged
@@ -27434,17 +27673,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466438762}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.5112906}
+  m_LocalScale: {x: 0.54375, y: 0.54375, z: 0.54375}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 138753450}
+  m_Father: {fileID: 1798911387}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 542.6244, y: -62.335236}
   m_SizeDelta: {x: 300, y: 685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466438764
@@ -27467,7 +27706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: e2fbffb61df89e54fa00aee51d864c4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27485,6 +27724,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466438762}
   m_CullTransparentMesh: 1
+--- !u!114 &1466438766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466438762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a707b8e803f00b49a12edb41e646620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Image: {fileID: 1466438764}
+  m_SpriteArray:
+  - {fileID: 21300000, guid: e2fbffb61df89e54fa00aee51d864c4a, type: 3}
+  - {fileID: 21300000, guid: 3c14b1459507cdf4ea2996c833adf4de, type: 3}
+  - {fileID: 21300000, guid: cd48ae4ab898c564598af85f2e1ff742, type: 3}
+  - {fileID: 21300000, guid: 7218cac43f06ab947a6c5f2428b84f19, type: 3}
+  - {fileID: 21300000, guid: f26848b30fd972d4999f99a67f61046d, type: 3}
+  - {fileID: 21300000, guid: 1246bc3a16cc7f2488d95419c8adb8ce, type: 3}
+  - {fileID: 21300000, guid: d2fcb6adc2e377546913151f3fae6e15, type: 3}
+  - {fileID: 21300000, guid: 0a2e0773b6122e64484c94a7b4aa4a71, type: 3}
+  - {fileID: 21300000, guid: 1167830581975aa4db284834d61f1cca, type: 3}
+  - {fileID: 21300000, guid: 9907d4932e38abf4ab2a85ddd6cb6ff6, type: 3}
+  - {fileID: 21300000, guid: 4569da5d4255e694e8208ec240b86b7c, type: 3}
+  - {fileID: 21300000, guid: 7883d9f674ef3aa4087e7718047fe533, type: 3}
+  - {fileID: 21300000, guid: f67c553303cc7264c8af6bad9b1270dd, type: 3}
+  - {fileID: 21300000, guid: dee51698e34e4d34bb65b409a8bd2766, type: 3}
+  - {fileID: 21300000, guid: 7e4a0b5512711c7428d5d9e8c36b4441, type: 3}
+  - {fileID: 21300000, guid: 96146569e2030544d8a3c1e3653553a0, type: 3}
+  - {fileID: 21300000, guid: 6a5359e811a7e8a49a338b49f22c40a5, type: 3}
+  - {fileID: 21300000, guid: 806e1787da8429d46b2ee3817cdb996e, type: 3}
+  - {fileID: 21300000, guid: 293d3af6c6a495744acf6ce782575921, type: 3}
+  - {fileID: 21300000, guid: 144e036e9cef54949a37dbd79ef897a7, type: 3}
+  - {fileID: 21300000, guid: 68b23ff53ef3da64eb51217fe1f7332b, type: 3}
+  - {fileID: 21300000, guid: 2af179edd3eb0b54bbbdbd51d6934a81, type: 3}
+  - {fileID: 21300000, guid: 022139122c7e1b54d9db90943ed191c1, type: 3}
+  - {fileID: 21300000, guid: f23c82fe9275bbc43b1fe2222c88805a, type: 3}
+  - {fileID: 21300000, guid: 551fe0c6a5d4e2f41999b0d7834915e7, type: 3}
+  - {fileID: 21300000, guid: bb3473d9cd63aa343905b61f7da6ad6f, type: 3}
+  - {fileID: 21300000, guid: 42403f4c4a9bb0543a1258a39d7ea81a, type: 3}
+  - {fileID: 21300000, guid: 3d0bddc41c9b40f4a8ed83f5315919b9, type: 3}
+  - {fileID: 21300000, guid: 72ea4bea969981342bfd47ea1dd4a24e, type: 3}
+  - {fileID: 21300000, guid: a67b9d7d3d4e5304ca3daec3d3762dab, type: 3}
+  - {fileID: 21300000, guid: 6d4b52c47b8d2ed4da863013db6df73b, type: 3}
+  - {fileID: 21300000, guid: 81e7a5ea38121c545b0196f556aca0a8, type: 3}
+  - {fileID: 21300000, guid: 7a9b50d22a04a634c890737848cf9bff, type: 3}
+  - {fileID: 21300000, guid: 364c35dc85d2b424fae2e6d71d72ba29, type: 3}
+  - {fileID: 21300000, guid: 05b506c9f0f9a154aba0462352c4f81a, type: 3}
+  - {fileID: 21300000, guid: c1ef49efcc8e80c46b6fe1a950bafe0c, type: 3}
+  - {fileID: 21300000, guid: 3b968e2f12347904e881a766a08a04be, type: 3}
+  m_Speed: 0.02
 --- !u!1 &1471529035
 GameObject:
   m_ObjectHideFlags: 0
@@ -27558,6 +27849,8 @@ MonoBehaviour:
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -27936,6 +28229,8 @@ MonoBehaviour:
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -28808,6 +29103,8 @@ MonoBehaviour:
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 1544587270}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -28966,6 +29263,8 @@ MonoBehaviour:
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -29278,6 +29577,8 @@ MonoBehaviour:
   X: {fileID: 732677292}
   O: {fileID: 505564052}
   Box: {fileID: 1318898}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -29656,6 +29957,8 @@ MonoBehaviour:
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -29738,6 +30041,8 @@ MonoBehaviour:
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 948031086}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -30192,6 +30497,8 @@ MonoBehaviour:
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -30272,6 +30579,8 @@ MonoBehaviour:
   X: {fileID: 270609529}
   O: {fileID: 1881541831}
   Box: {fileID: 1626013018}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -30662,6 +30971,7 @@ GameObject:
   - component: {fileID: 1657265752}
   - component: {fileID: 1657265754}
   - component: {fileID: 1657265753}
+  - component: {fileID: 1657265755}
   m_Layer: 5
   m_Name: XActive
   m_TagString: Untagged
@@ -30676,17 +30986,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657265751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.5112906}
+  m_LocalScale: {x: 0.54375, y: 0.54375, z: 0.54375}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2090480701}
+  m_Father: {fileID: 1243381993}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -263.21298, y: -62.335236}
   m_SizeDelta: {x: 300, y: 685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657265753
@@ -30709,7 +31019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cb0e5d3be25e7a642b2b2e31f4f0f9dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30727,6 +31037,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657265751}
   m_CullTransparentMesh: 1
+--- !u!114 &1657265755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657265751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526d6f7dd46c1be41b582a09ed535360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Image: {fileID: 1657265753}
+  m_SpriteArray:
+  - {fileID: 21300000, guid: cb0e5d3be25e7a642b2b2e31f4f0f9dd, type: 3}
+  - {fileID: 21300000, guid: 6941b95fa3e79f848b7b11b2f958d824, type: 3}
+  - {fileID: 21300000, guid: f61dc7c8b3112d44cb470f1f4d191719, type: 3}
+  - {fileID: 21300000, guid: 6e47d647f02989c4882a96d0a1db2ea9, type: 3}
+  - {fileID: 21300000, guid: 5c8116ba21e476c44bc188151c17358d, type: 3}
+  - {fileID: 21300000, guid: ed0fa5fb79e716649b7c00ca90207209, type: 3}
+  - {fileID: 21300000, guid: 6f3c38c275ae72849acc7030b5c9275b, type: 3}
+  - {fileID: 21300000, guid: 84f4049e642ad374dbb8580f2a92fb45, type: 3}
+  - {fileID: 21300000, guid: b461b394de58e9147b9dbcbc8f362334, type: 3}
+  - {fileID: 21300000, guid: 9da60b437d7ed2b4a95949eb9a2783b6, type: 3}
+  - {fileID: 21300000, guid: 950b208de5b5f6b49af7fa30ceb46646, type: 3}
+  - {fileID: 21300000, guid: 898ec986ad0e3804da83662aa766ae84, type: 3}
+  - {fileID: 21300000, guid: 9847c1b2352858d4c85c518e8ecdb5da, type: 3}
+  - {fileID: 21300000, guid: 9915bc5c8c4c566448ec9daa6b96b20a, type: 3}
+  - {fileID: 21300000, guid: e5915f32fea30454aacfff35b830ebb5, type: 3}
+  - {fileID: 21300000, guid: a460100c1e1c5b440af424dacc4ca841, type: 3}
+  - {fileID: 21300000, guid: f2df5f851d642b349acb10406f0a376a, type: 3}
+  - {fileID: 21300000, guid: 38e78dfdb9d18d24ebaf3b5c359e8ce2, type: 3}
+  - {fileID: 21300000, guid: 42b4f595e5877e247913d42ca5e0fc94, type: 3}
+  - {fileID: 21300000, guid: 749ec3844215291469ade9b31ebaeeaa, type: 3}
+  - {fileID: 21300000, guid: ff558f79b22634f4e965b2a1538fae63, type: 3}
+  - {fileID: 21300000, guid: c0768898e936e4f4a867d8d43dbe2fc0, type: 3}
+  - {fileID: 21300000, guid: 2f3588b18193adb448fb4cb105d2868f, type: 3}
+  - {fileID: 21300000, guid: d71499515041bab4b9be0fa655f2e047, type: 3}
+  - {fileID: 21300000, guid: 21083e866c353ee448d6867ecac1e604, type: 3}
+  - {fileID: 21300000, guid: 1167cacf1ff2df74581c01b26444e6ab, type: 3}
+  - {fileID: 21300000, guid: 21f86ed7a718d7a4a86872e3cb432e5c, type: 3}
+  - {fileID: 21300000, guid: 676f165c957eb7f438cb7a16591c0357, type: 3}
+  - {fileID: 21300000, guid: 01eb5dfd4cc05934f837af3b203eaab4, type: 3}
+  - {fileID: 21300000, guid: 9619a8f751ba4424885f66f0ec4f967b, type: 3}
+  - {fileID: 21300000, guid: 9436b50feeb5e42498f67c9b99f4e5f0, type: 3}
+  - {fileID: 21300000, guid: 7861dfaae2ab69b48b49c815e04ca380, type: 3}
+  - {fileID: 21300000, guid: b56763f9bd56d3f45b0a1f1460820af9, type: 3}
+  - {fileID: 21300000, guid: 098f8480a1ebf8541a6dc1219674feb3, type: 3}
+  - {fileID: 21300000, guid: 9b6b6f21a356bc34eb602eda04f93ef2, type: 3}
+  - {fileID: 21300000, guid: 1a9a2ee800240044d88976507f0a785d, type: 3}
+  - {fileID: 21300000, guid: eac3de71b86474c4fa981fed2b832434, type: 3}
+  - {fileID: 21300000, guid: edfc2077bedbfdc40a2eac93d8a5be22, type: 3}
+  - {fileID: 21300000, guid: 772321ced3089ef44896f24c1c5052df, type: 3}
+  - {fileID: 21300000, guid: 1fccb85311cbb924a89eafc411c286e0, type: 3}
+  - {fileID: 21300000, guid: 738c0cc532c48f84e8f2c32f84e5aee3, type: 3}
+  - {fileID: 21300000, guid: 8c9b94ef9a8b24c47ba17d1634bd2e2b, type: 3}
+  - {fileID: 21300000, guid: 97e2d631635a5d8428d4e743877a4c85, type: 3}
+  - {fileID: 21300000, guid: 8f2d748e3f7ffb842b3aed801bda13f8, type: 3}
+  - {fileID: 21300000, guid: 9f4a36a59ccd9b249b7dff74b01086e4, type: 3}
+  - {fileID: 21300000, guid: 104ba5dee38e64a4c91b566386c88a58, type: 3}
+  - {fileID: 21300000, guid: 9c746f27ca68ec94d9e9ee714171e2df, type: 3}
+  - {fileID: 21300000, guid: 0f8c7dd1d7ac317478eac45c38edf4bb, type: 3}
+  - {fileID: 21300000, guid: ab8e0f3e2e003bd4986ee029c395df8d, type: 3}
+  - {fileID: 21300000, guid: 709244b78a661a14bb43bebc8311a2f3, type: 3}
+  - {fileID: 21300000, guid: 864871c5725e45345860276409f1b963, type: 3}
+  - {fileID: 21300000, guid: 2f66d32e44f867d4a9cc989b2a88da4b, type: 3}
+  - {fileID: 21300000, guid: 5d0e34628b71cdf4492bba19c3e92af5, type: 3}
+  - {fileID: 21300000, guid: 7689cc53d85c0e042944c7f92887d3c5, type: 3}
+  m_Speed: 0.02
 --- !u!1 &1660389198
 GameObject:
   m_ObjectHideFlags: 0
@@ -30915,6 +31294,8 @@ MonoBehaviour:
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -31324,6 +31705,8 @@ MonoBehaviour:
   X: {fileID: 1155522822}
   O: {fileID: 39922740}
   Box: {fileID: 1601025241}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -31560,6 +31943,8 @@ MonoBehaviour:
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 725286623}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -31910,6 +32295,8 @@ MonoBehaviour:
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 1616295730}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -32144,6 +32531,8 @@ MonoBehaviour:
   X: {fileID: 877935076}
   O: {fileID: 1068146150}
   Box: {fileID: 1752742143}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -32372,6 +32761,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790710993}
   m_CullTransparentMesh: 1
+--- !u!1 &1791677990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791677991}
+  - component: {fileID: 1791677993}
+  - component: {fileID: 1791677992}
+  m_Layer: 5
+  m_Name: Graphic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1791677991
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791677990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 681948365}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 145, y: 0.000061035156}
+  m_SizeDelta: {x: -261.44507, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791677992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791677990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a1348ee0fb4c4004095e103f0ef71a67, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1791677993
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791677990}
+  m_CullTransparentMesh: 1
+--- !u!1 &1798911386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798911387}
+  m_Layer: 0
+  m_Name: O
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1798911387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798911386}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -243.9301, y: 231.6395, z: -10.135706}
+  m_LocalScale: {x: 1.8390805, y: 1.8390805, z: 1.8390805}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 138753450}
+  - {fileID: 1466438763}
+  m_Father: {fileID: 297245983}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1799208780
 GameObject:
   m_ObjectHideFlags: 0
@@ -32445,6 +32943,8 @@ MonoBehaviour:
   X: {fileID: 1954691366}
   O: {fileID: 1534956573}
   Box: {fileID: 897773522}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -32679,6 +33179,8 @@ MonoBehaviour:
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1805949718}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -32780,6 +33282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832718150}
   - component: {fileID: 1832718151}
+  - component: {fileID: 1832718152}
   m_Layer: 5
   m_Name: HP_PX
   m_TagString: Untagged
@@ -32801,6 +33304,7 @@ RectTransform:
   m_Children:
   - {fileID: 227703970}
   - {fileID: 2013695343}
+  - {fileID: 459554658}
   m_Father: {fileID: 634179242}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32860,6 +33364,14 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!222 &1832718152
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832718149}
+  m_CullTransparentMesh: 1
 --- !u!1 &1832936551
 GameObject:
   m_ObjectHideFlags: 0
@@ -33380,6 +33892,8 @@ MonoBehaviour:
   X: {fileID: 383528168}
   O: {fileID: 6678178}
   Box: {fileID: 1857924055}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -33673,6 +34187,8 @@ MonoBehaviour:
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -33909,6 +34425,8 @@ MonoBehaviour:
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 176036439}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -34333,6 +34851,8 @@ MonoBehaviour:
   X: {fileID: 1387561284}
   O: {fileID: 619790532}
   Box: {fileID: 1910368287}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -34536,6 +35056,8 @@ MonoBehaviour:
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 936738238}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -34886,6 +35408,8 @@ MonoBehaviour:
   X: {fileID: 503846246}
   O: {fileID: 352557950}
   Box: {fileID: 1008584046}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -35122,6 +35646,8 @@ MonoBehaviour:
   X: {fileID: 1517023015}
   O: {fileID: 1195262044}
   Box: {fileID: 1478294607}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -35433,6 +35959,8 @@ MonoBehaviour:
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 1974492953}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -35597,6 +36125,8 @@ MonoBehaviour:
   X: {fileID: 1889599642}
   O: {fileID: 890174118}
   Box: {fileID: 701044629}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -35833,6 +36363,8 @@ MonoBehaviour:
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -36069,6 +36601,8 @@ MonoBehaviour:
   X: {fileID: 1660389198}
   O: {fileID: 578287603}
   Box: {fileID: 175668955}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -36303,6 +36837,8 @@ MonoBehaviour:
   X: {fileID: 850765969}
   O: {fileID: 763682337}
   Box: {fileID: 1987787583}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -36467,6 +37003,8 @@ MonoBehaviour:
   X: {fileID: 2083225150}
   O: {fileID: 827328352}
   Box: {fileID: 280404464}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -36853,6 +37391,8 @@ MonoBehaviour:
   X: {fileID: 884828145}
   O: {fileID: 347808189}
   Box: {fileID: 2010738608}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -36978,8 +37518,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -8.615, y: 0}
-  m_SizeDelta: {x: -12.771, y: 0}
+  m_AnchoredPosition: {x: -93.62134, y: -19.702694}
+  m_SizeDelta: {x: -354.7458, y: -15.8076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2017331507
 GameObject:
@@ -37196,6 +37736,8 @@ MonoBehaviour:
   X: {fileID: 454282959}
   O: {fileID: 444638669}
   Box: {fileID: 2017331507}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -37482,6 +38024,8 @@ MonoBehaviour:
   X: {fileID: 379501060}
   O: {fileID: 952576696}
   Box: {fileID: 2077945655}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -37684,6 +38228,8 @@ MonoBehaviour:
   X: {fileID: 1555083315}
   O: {fileID: 933121675}
   Box: {fileID: 1228810584}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -37949,17 +38495,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090480700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.5112906}
+  m_LocalScale: {x: 0.54375, y: 0.54375, z: 0.54375}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1657265752}
-  m_Father: {fileID: 297245983}
+  m_Children: []
+  m_Father: {fileID: 1243381993}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -728, y: 117}
+  m_AnchoredPosition: {x: -263.21298, y: -62.33522}
   m_SizeDelta: {x: 300, y: 685}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090480702
@@ -37982,7 +38527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b43c00135f6226741b740c13cd887c6c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb0e5d3be25e7a642b2b2e31f4f0f9dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -38291,6 +38836,8 @@ MonoBehaviour:
   X: {fileID: 1450108289}
   O: {fileID: 1435659595}
   Box: {fileID: 2108897474}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -38371,6 +38918,8 @@ MonoBehaviour:
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2113375186}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -38533,6 +39082,8 @@ MonoBehaviour:
   X: {fileID: 74206002}
   O: {fileID: 435628601}
   Box: {fileID: 2121064087}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -38839,6 +39390,8 @@ MonoBehaviour:
   X: {fileID: 1110615724}
   O: {fileID: 424887701}
   Box: {fileID: 2127812572}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
@@ -38919,6 +39472,8 @@ MonoBehaviour:
   X: {fileID: 733607611}
   O: {fileID: 577257955}
   Box: {fileID: 2133584842}
+  X_Cha: {fileID: 0}
+  O_Cha: {fileID: 0}
   WX: []
   WO: []
   x_Winscene: {fileID: 0}
