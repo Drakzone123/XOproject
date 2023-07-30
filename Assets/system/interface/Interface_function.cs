@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Interface_function : MainSystem
 {
@@ -15,7 +16,9 @@ public class Interface_function : MainSystem
     [SerializeField] public TextMeshProUGUI o_potintCount;
     [SerializeField] public TextMeshProUGUI t_potintCount;
 
-   
+  
+
+
     public void Turn_counted()
     {
         if (count_Number <= 1)
@@ -47,5 +50,5 @@ public class Interface_function : MainSystem
         Application.Quit();
     }
 
-
+    
 }
