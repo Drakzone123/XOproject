@@ -1674,8 +1674,8 @@ public class MainSystem : MonoBehaviour
             WX[18].SetActive(false);
             WX[23].SetActive(false);
             grid_G[8].SetActive(true);
-            grid_G[13].SetActive(true);
-            grid_G[18].SetActive(true);
+            grid_G[14].SetActive(true);
+            grid_G[18 ].SetActive(true);
             grid_G[23].SetActive(true);
             // x_Winscene.SetActive(true);
         }
@@ -1697,27 +1697,27 @@ public class MainSystem : MonoBehaviour
         if (WX[6].activeSelf && WX[11].activeSelf && WX[16].activeSelf && WX[21].activeSelf)
         {
             O_Attack();
-            WX[6].SetActive(false);
-            WX[11].SetActive(false);
-            WX[16].SetActive(false);
-            WX[21].SetActive(false);
-            grid_G[6].SetActive(true);
-            grid_G[11].SetActive(true);
-            grid_G[16].SetActive(true);
-            grid_G[21].SetActive(true);
+            WX[8].SetActive(false);
+            WX[13].SetActive(false);
+            WX[18].SetActive(false);
+            WX[23].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[23].SetActive(true);
             // x_Winscene.SetActive(true);
         }
         if (WO[6].activeSelf && WO[11].activeSelf && WO[16].activeSelf && WO[21].activeSelf)
         {
             X_Attack();
-            WO[6].SetActive(false);
-            WO[11].SetActive(false);
-            WO[16].SetActive(false);
-            WO[21].SetActive(false);
-            grid_G[6].SetActive(true);
-            grid_G[11].SetActive(true);
-            grid_G[16].SetActive(true);
-            grid_G[21].SetActive(true);
+            WO[8].SetActive(false);
+            WO[13].SetActive(false);
+            WO[18].SetActive(false);
+            WO[23].SetActive(false);
+            grid_G[8].SetActive(true);
+            grid_G[13].SetActive(true);
+            grid_G[18].SetActive(true);
+            grid_G[23].SetActive(true);
             // o_Winscene.SetActive(true);
         }
 
