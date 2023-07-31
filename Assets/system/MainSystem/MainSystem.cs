@@ -289,7 +289,7 @@ public class MainSystem : MonoBehaviour
     {
 
         X_skillPoint--;
-        Xskill_Count--;
+       
         X_Affectskillspace();
         X_Usebutton.SetActive(false);
         X_Canclebutton.SetActive(true);
@@ -299,7 +299,7 @@ public class MainSystem : MonoBehaviour
     {
 
         O_skillPoint--;
-        Oskill_Count--;
+        
         O_Usebutton.SetActive(false);
         O_Canclebutton.SetActive(true);
         O_Affectskillspace();
