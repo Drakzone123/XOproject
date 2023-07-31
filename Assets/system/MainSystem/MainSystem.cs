@@ -69,7 +69,6 @@ public class MainSystem : MonoBehaviour
     [Header("variable for Setting menu")]
     [SerializeField] public GameObject[] grid_G;
     [SerializeField] public GameObject settint_scene;
-    [SerializeField] public GameObject[] option;
     [SerializeField] public GameObject[] game_scene;
 
     [Header("variable for HP System")]
@@ -1765,18 +1764,7 @@ public class MainSystem : MonoBehaviour
             x_Winscene.SetActive(true);
         }
     }
-    public void Opption_menu()
-    {
-        option[0].SetActive(true);
-        option[1].SetActive(false);
-
-    }
-    public void BackOpption_menu()
-    {
-        option[0].SetActive(false);
-        option[1].SetActive(true);
-
-    }
+    
     public void Back_Menu()
     {
         game_scene[0].SetActive(false);
