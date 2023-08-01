@@ -1526,7 +1526,7 @@ public class MainSystem : MonoBehaviour
             WO[18].SetActive(false);
             grid_G[15].SetActive(true);
             grid_G[16].SetActive(true);
-            grid_G[1].SetActive(true);
+            grid_G[17].SetActive(true);
             grid_G[18].SetActive(true);
             // o_Winscene.SetActive(true);
         }
