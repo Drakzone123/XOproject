@@ -1015,7 +1015,7 @@ public class MainSystem : MonoBehaviour
 
         if (WO[6].activeSelf && WO[12].activeSelf && WO[18].activeSelf && WO[24].activeSelf)
         {
-            O_Attack();
+            X_Attack();
             WO[6].SetActive(false);
             WO[12].SetActive(false);
             WO[18].SetActive(false);
